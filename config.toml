@@ -14,6 +14,7 @@ themesDir = "themes"
 title = "The Bog"
 
 # whether to use robots.txt
+# 是否使用 robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
@@ -21,20 +22,6 @@ enableGitInfo = true
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
-
-
-# HTTP headers
-[server]
-[[server.headers]]
-for = '/**.html'
-[server.headers.values]
-Content-Security-Policy = 'script-src localhost:1313'
-Referrer-Policy = 'strict-origin-when-cross-origin'
-X-Content-Type-Options = 'nosniff'
-X-Frame-Options = 'DENY'
-X-XSS-Protection = '1; mode=block'
-X-Robots-Tag = 'nofollow'
-
 
 [languages]
   [languages.en]
@@ -47,7 +34,7 @@ X-Robots-Tag = 'nofollow'
     hasCJKLanguage = false
     # default amount of posts in each pages
     paginate = 12
-    # [UA-XXXXXXXX-X] google analytics code (replaced by params.analytics.google)
+    # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -97,21 +84,13 @@ X-Robots-Tag = 'nofollow'
         title = ""
         weight = 5
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        pre = ""
-        post = ""
-        name = "Showcase"
-        url = "/showcase/"
-        title = ""
-        weight = 6
-      [[languages.en.menu.main]]
         identifier = "documentation"
         pre = ""
         post = ""
         name = "Docs"
         url = "/categories/documentation/"
         title = ""
-        weight = 7
+        weight = 6
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -119,7 +98,7 @@ X-Robots-Tag = 'nofollow'
         name = "About"
         url = "/about/"
         title = ""
-        weight = 8
+        weight = 7
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -127,7 +106,7 @@ X-Robots-Tag = 'nofollow'
         name = ""
         url = "https://github.com/Jatin794"
         title = "GitHub"
-        weight = 9
+        weight = 8
     [languages.en.params]
       # site description
 
@@ -150,7 +129,7 @@ X-Robots-Tag = 'nofollow'
       # Search config
       [languages.en.params.search]
         enable = true
-        # type of search engine ("algolia", "fuse")
+        # type of search engine ("lunr", "algolia", "fuse")
         type = "algolia"
         # max index length of the chunked content
         contentLength = 4000
@@ -159,7 +138,7 @@ X-Robots-Tag = 'nofollow'
         # max number of results length
         maxResultLength = 10
         # snippet length of the result
-        snippetLength = 300
+        snippetLength = 30
         # HTML tag name of the highlight part in results
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
@@ -174,9 +153,9 @@ X-Robots-Tag = 'nofollow'
           minMatchCharLength = 2
           findAllMatches = false
           location = 0
-          threshold = 0.1
+          threshold = 0.3
           distance = 100
-          ignoreLocation = true
+          ignoreLocation = false
           useExtendedSearch = false
           ignoreFieldNorm = false
       # Home page config
@@ -257,33 +236,37 @@ X-Robots-Tag = 'nofollow'
         Kickstarter = ""
         Patreon = ""
         Steam = ""
-        Strava = ""
-        Telegram = "xxxx"
-        Thingiverse = ""
-        Tumblr = ""
         Twitch = ""
-        Twitter = "xxxx"
-        Vine = ""
-        VK = ""
-        Weibo = ""
+        Strava = ""
+        Skype = ""
         Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
         Wordpress = ""
-        Xing = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
         XMPP = ""
         Matrix = ""
         Bilibili = ""
         ORCID = ""
-        QQ = ""
-        QQGroup = ""
         Liberapay = "xxx"
         Ko-Fi = "xxx"
-        BuyMeACoffee = ""
-        Linktree = ""
         Email = "xxxx@xxxx.com"
         RSS = true
         [languages.en.params.social.Mastodon]
           id = "@xxxx"
           prefix = "https://mastodon.technology/"
+<<<<<<< HEAD
         [languages.en.params.social.Diaspora]
           id = "@xxxx"
           prefix = "https://yyyy/"
@@ -294,6 +277,8 @@ X-Robots-Tag = 'nofollow'
         link = "https://github.com/sponsors/HEIGE-PCloud"
         # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
 
+=======
+>>>>>>> 440bb87a (made it a site from example)
 
   [languages.zh-cn]
     weight = 2
@@ -305,7 +290,11 @@ X-Robots-Tag = 'nofollow'
     hasCJKLanguage = true
     # 默认每页列表显示的文章数目
     paginate = 12
+<<<<<<< HEAD
     # [UA-XXXXXXXX-X] 谷歌分析代号 (被 params.analytics.google 替代)
+=======
+    # [UA-XXXXXXXX-X] 谷歌分析代号
+>>>>>>> 440bb87a (made it a site from example)
     googleAnalytics = ""
     # 版权描述，仅仅用于 SEO
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -354,6 +343,7 @@ X-Robots-Tag = 'nofollow'
         title = ""
         weight = 5
       [[languages.zh-cn.menu.main]]
+<<<<<<< HEAD
         identifier = "showcase"
         pre = ""
         post = ""
@@ -362,12 +352,18 @@ X-Robots-Tag = 'nofollow'
         title = ""
         weight = 6
       [[languages.zh-cn.menu.main]]
+=======
+>>>>>>> 440bb87a (made it a site from example)
         identifier = "documentation"
         pre = ""
         name = "文档"
         url = "/categories/documentation/"
         title = ""
+<<<<<<< HEAD
         weight = 7
+=======
+        weight = 6
+>>>>>>> 440bb87a (made it a site from example)
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
@@ -375,7 +371,11 @@ X-Robots-Tag = 'nofollow'
         name = "关于"
         url = "/about/"
         title = ""
+<<<<<<< HEAD
         weight = 8
+=======
+        weight = 7
+>>>>>>> 440bb87a (made it a site from example)
       [[languages.zh-cn.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -383,10 +383,17 @@ X-Robots-Tag = 'nofollow'
         name = ""
         url = "https://github.com/HEIGE-PCloud/DoIt"
         title = "GitHub"
+<<<<<<< HEAD
         weight = 9
     [languages.zh-cn.params]
       # 网站描述
       description = "Hugo DoIt 主题官方文档"
+=======
+        weight = 8
+    [languages.zh-cn.params]
+      # 网站描述
+      description = "关于 DoIt 主题"
+>>>>>>> 440bb87a (made it a site from example)
       # 网站关键词
       keywords = ["Theme", "Hugo"]
       # 应用图标配置
@@ -404,7 +411,11 @@ X-Robots-Tag = 'nofollow'
       # 搜索配置
       [languages.zh-cn.params.search]
         enable = true
+<<<<<<< HEAD
         # 搜索引擎的类型 ("algolia", "fuse")
+=======
+        # 搜索引擎的类型 ("lunr", "algolia", "fuse")
+>>>>>>> 440bb87a (made it a site from example)
         type = "algolia"
         # 文章内容最长索引长度
         contentLength = 4000
@@ -428,9 +439,15 @@ X-Robots-Tag = 'nofollow'
           minMatchCharLength = 2
           findAllMatches = false
           location = 0
+<<<<<<< HEAD
           threshold = 0.1
           distance = 100
           ignoreLocation = true
+=======
+          threshold = 0.3
+          distance = 100
+          ignoreLocation = false
+>>>>>>> 440bb87a (made it a site from example)
           useExtendedSearch = false
           ignoreFieldNorm = false
       # 主页信息设置
@@ -461,6 +478,7 @@ X-Robots-Tag = 'nofollow'
           paginate = 7
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
+<<<<<<< HEAD
         Angellist = ""
         Bandcamp = ""
         Behance = ""
@@ -527,12 +545,74 @@ X-Robots-Tag = 'nofollow'
         Whatsapp = ""
         Wordpress = ""
         Xing = ""
+=======
+        GitHub = "xxxx"
+        Linkedin = ""
+        Twitter = ""
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = "xxxx"
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = "xxxx"
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = "xxxx"
+        Douban = "xxxx"
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Mastodon = ""
+        Thingiverse = ""
+        Devto = "xxxx"
+        Gitea = ""
+>>>>>>> 440bb87a (made it a site from example)
         XMPP = ""
         Matrix = ""
         Bilibili = "xxxx"
         ORCID = ""
         Liberapay = ""
         Ko-Fi = ""
+<<<<<<< HEAD
         BuyMeACoffee = ""
         Linktree = ""
         QQ = ""
@@ -551,6 +631,12 @@ X-Robots-Tag = 'nofollow'
   # website title
   # 网站标题
   title = "Hugo DoIt Theme Documentation"
+=======
+        Email = "xxxx@xxxx.com"
+        RSS = true
+
+[params]
+>>>>>>> 440bb87a (made it a site from example)
   # DoIt theme version
   # DoIt 主题版本
   version = "0.2.X"
@@ -568,6 +654,7 @@ X-Robots-Tag = 'nofollow'
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
+<<<<<<< HEAD
   images = ["/images/avatar.webp"]
   # enable PWA
   # 开启 PWA 支持
@@ -577,6 +664,12 @@ X-Robots-Tag = 'nofollow'
   license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # [Experimental] Bundle js
   bundle = false
+=======
+  images = ["/logo.png"]
+  # enable PWA
+  # 开启 PWA 支持
+  enablePWA = true
+>>>>>>> 440bb87a (made it a site from example)
   # Header config
   # 页面头部导航栏配置
   [params.header]
@@ -597,7 +690,11 @@ X-Robots-Tag = 'nofollow'
       logo = ""
       # title name
       # 标题名称
+<<<<<<< HEAD
       name = "The Bog"
+=======
+      name = "DoIt"
+>>>>>>> 440bb87a (made it a site from example)
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-edit fa-fw'></i>"
@@ -606,7 +703,11 @@ X-Robots-Tag = 'nofollow'
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
+<<<<<<< HEAD
       typeit = true
+=======
+      typeit = false
+>>>>>>> 440bb87a (made it a site from example)
 
   # Footer config
   # 页面底部信息配置
@@ -618,10 +719,13 @@ X-Robots-Tag = 'nofollow'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = true
+<<<<<<< HEAD
     # Hosted on (HTML format is supported)
     # 托管服务信息 (支持 HTML 格式)
     # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
     hostedOn = '' 
+=======
+>>>>>>> 440bb87a (made it a site from example)
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
@@ -630,6 +734,7 @@ X-Robots-Tag = 'nofollow'
     author = true
     # site creation time
     # 网站创立年份
+<<<<<<< HEAD
     since = 2021
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
@@ -637,6 +742,15 @@ X-Robots-Tag = 'nofollow'
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
+=======
+    since = 2019
+    # ICP info only in China (HTML format is supported)
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    icp = ""
+    # license info (HTML format is supported)
+    # 许可协议信息 (支持 HTML 格式)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+>>>>>>> 440bb87a (made it a site from example)
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -650,6 +764,7 @@ X-Robots-Tag = 'nofollow'
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
+<<<<<<< HEAD
     # recently updated posts settings
     # 最近更新文章设置
     [params.section.recentlyUpdated]
@@ -657,6 +772,8 @@ X-Robots-Tag = 'nofollow'
       rss = true
       days = 30
       maxCount = 10
+=======
+>>>>>>> 440bb87a (made it a site from example)
 
   # List (category or tag) page config
   # List (目录或标签) 页面配置
@@ -698,6 +815,7 @@ X-Robots-Tag = 'nofollow'
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = true
+<<<<<<< HEAD
     # configure the link to view source the post
     # 配置文章原始文件的链接
     linkToSource = "https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}"
@@ -713,11 +831,14 @@ X-Robots-Tag = 'nofollow'
     linkToReport = "https://github.com/HEIGE-PCloud/DoIt/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
     # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
+=======
+>>>>>>> 440bb87a (made it a site from example)
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
     # Page style ("normal", "wide")
     # 页面样式 ("normal", "wide")
+<<<<<<< HEAD
     pageStyle = "normal"
     # whether to enable series navigation
     # 是否使用系列导航
@@ -732,6 +853,9 @@ X-Robots-Tag = 'nofollow'
       # Display warning if the last modified time is more than 180 days ago.
       # 如果文章最后更新于这天数之前，显示警告
       warning = 180
+=======
+    pageStyle = "wide"
+>>>>>>> 440bb87a (made it a site from example)
     # Table of the contents config
     # 目录配置
     [params.page.toc]
@@ -753,6 +877,7 @@ X-Robots-Tag = 'nofollow'
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
       maxShownLines = 10
+<<<<<<< HEAD
     # Table config
     # 表格配置
     [params.page.table]
@@ -770,6 +895,8 @@ X-Robots-Tag = 'nofollow'
           h4 = "{h2}.{h3}.{h4} {title}"
           h5 = "{h2}.{h3}.{h4}.{h5} {title}"
           h6 = "{h2}.{h3}.{h4}.{h5}.{h6} {title}"
+=======
+>>>>>>> 440bb87a (made it a site from example)
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
@@ -816,14 +943,27 @@ X-Robots-Tag = 'nofollow'
     # 文章页面的分享信息设置
     [params.page.share]
       enable = true
+<<<<<<< HEAD
       Baidu = false
       Blogger = false
+=======
+      Twitter = true
+      Facebook = true
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = true
+      Reddit = false
+      VK = false
+>>>>>>> 440bb87a (made it a site from example)
       Buffer = false
       Xing = false
       Line = true
       Instapaper = false
       Pocket = false
       Digg = false
+<<<<<<< HEAD
       Evernote = false
       Facebook = true
       Flipboard = false
@@ -854,6 +994,20 @@ X-Robots-Tag = 'nofollow'
       Weixin = ""
       Whatsapp = false
       Xing = false
+=======
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = true
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+>>>>>>> 440bb87a (made it a site from example)
     # Comment config
     # 评论系统设置
     [params.page.comment]
@@ -877,8 +1031,13 @@ X-Robots-Tag = 'nofollow'
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
+<<<<<<< HEAD
         appId = ""
         appKey = ""
+=======
+        appId = "aM7gLUeWp8it1Efrcp3rm8TB-MdYXbMMI"
+        appKey = "Xn1xlYj3Fm5gvsYG3WyQpaix"
+>>>>>>> 440bb87a (made it a site from example)
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -904,6 +1063,7 @@ X-Robots-Tag = 'nofollow'
       # Waline 评论系统设置 (https://waline.js.org)
       [params.page.comment.waline]
         enable = false
+<<<<<<< HEAD
         serverURL = "https://waline-comment-doit.vercel.app/"
         pageview = true
         comment = true
@@ -916,6 +1076,23 @@ X-Robots-Tag = 'nofollow'
         # imageUploader = false
         # highlighter = false
         # texRenderer = false
+=======
+        serverURL = "https://doit-docs-comment.vercel.app/"
+        placeholder = "Just Go Go."
+        wordLimit = 0
+        avatar = "mp"
+        meta = ["nick", "mail", "link"]
+        pageSize = 10
+        lang = "en"
+        visitor = true
+        highlight = true
+        avatarCDN = ""
+        avatarForce = false
+        emojiCDN = ""
+        emojiMaps = ""
+        requiredFields = []
+        anonymous = false
+>>>>>>> 440bb87a (made it a site from example)
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
@@ -935,11 +1112,18 @@ X-Robots-Tag = 'nofollow'
         colorful = true
         dislikes = false
         outlined = false
+<<<<<<< HEAD
         dark = false
       # Commento comment config (https://commento.io/)
       # Commento comment 评论系统设置 (https://commento.io/)
       [params.page.comment.commento]
         enable = true
+=======
+      # Commento comment config (https://commento.io/)
+      # Commento comment 评论系统设置 (https://commento.io/)
+      [params.page.comment.commento]
+        enable = false
+>>>>>>> 440bb87a (made it a site from example)
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
@@ -953,12 +1137,20 @@ X-Robots-Tag = 'nofollow'
       # Twikoo comment config (https://twikoo.js.org/)
       # Twikoo comment 评论系统设置 (https://twikoo.js.org/)
       [params.page.comment.twikoo]
+<<<<<<< HEAD
         enable = false
         envId = "https://twikoo-comments-doit.vercel.app/"
         region = ""
         path = ""
         visitor = true
         commentCount = true
+=======
+        enable = true
+        envId = "https://doit-docs-comment-twikoo.vercel.app/"
+        region = ""
+        path = ""
+        visitor = true
+>>>>>>> 440bb87a (made it a site from example)
       # Vssue comment config (https://vssue.js.org//)
       # Vssue comment 评论系统设置 (https://vssue.js.org//)
       [params.page.comment.vssue]
@@ -968,6 +1160,7 @@ X-Robots-Tag = 'nofollow'
         repo = ""
         clientId = ""
         clientSecret = ""
+<<<<<<< HEAD
       # Remark42 comment config (https://remark42.com/)
       # Remark42 comment 评论系统设置 (https://remark42.com/)
       [params.page.comment.remark42]
@@ -994,25 +1187,34 @@ X-Robots-Tag = 'nofollow'
         lightTheme = "light"
         darkTheme = "dark"
         dataLang = "en"
+=======
+>>>>>>> 440bb87a (made it a site from example)
     # Third-party library config
     # 第三方库配置
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
+<<<<<<< HEAD
         # [params.page.library.css.someOtherCSS]
         #   src = "someOther.css"
         #   defer = true
         #   attr = "customAttribute"
+=======
+>>>>>>> 440bb87a (made it a site from example)
         # located in "assets/" 位于 "assets/"
         # Or 或者
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
+<<<<<<< HEAD
         # someJavaScript = "some.js"
         # [params.page.library.js.someOtherJavaScript]
         #   src = "someOther.js"
         #   defer = false
         #   async = true
         #   attr = "customAttribute"
+=======
+        # someJavascript = "some.js"
+>>>>>>> 440bb87a (made it a site from example)
         # located in "assets/" 位于 "assets/"
         # Or 或者
         # someJavascript = "https://cdn.example.com/some.js"
@@ -1027,6 +1229,7 @@ X-Robots-Tag = 'nofollow'
       [params.page.seo.publisher]
         name = "xxxx"
         logoUrl = "/images/avatar.webp"
+<<<<<<< HEAD
     # Related content config
     # 相关文章推荐配置
     [params.page.related]
@@ -1040,6 +1243,8 @@ X-Robots-Tag = 'nofollow'
     bio = "If you find this post helpful, please consider sponsoring."
     link = "https://github.com/sponsors/HEIGE-PCloud"
     # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
+=======
+>>>>>>> 440bb87a (made it a site from example)
 
   # TypeIt config
   # TypeIt 配置
@@ -1065,8 +1270,11 @@ X-Robots-Tag = 'nofollow'
     yandex = ""
     pinterest = ""
     baidu = ""
+<<<<<<< HEAD
     so = ""
     sogou = ""
+=======
+>>>>>>> 440bb87a (made it a site from example)
 
   # Site SEO config
   # 网站 SEO 配置
@@ -1094,6 +1302,7 @@ X-Robots-Tag = 'nofollow'
       # server url for your tracker if you're self hosting
       # 自行托管追踪器时的主机路径
       server = ""
+<<<<<<< HEAD
     # Baidu Analytics
     [params.analytics.baidu]
       id = ""
@@ -1122,6 +1331,8 @@ X-Robots-Tag = 'nofollow'
       # token(optional), more info on https://splitbee.io/docs/embed-the-script
       # token(可选)，详细信息请前往 https://splitbee.io/docs/embed-the-script 查看
       data_token = ""
+=======
+>>>>>>> 440bb87a (made it a site from example)
 
   # Cookie consent config
   # Cookie 许可配置
@@ -1196,11 +1407,17 @@ X-Robots-Tag = 'nofollow'
 # Author config
 # 作者配置
 [author]
+<<<<<<< HEAD
   name = "Jatin Nagpal"
   email = ""
   link = "https://jatinnagpal.com/"
   avatar = "/images/avatar.webp"
   gravatarEmail = ""
+=======
+  name = "PCloud"
+  email = "heige.pcloud@outlook.com"
+  link = "https://github.com/HEIGE-PCloud"
+>>>>>>> 440bb87a (made it a site from example)
 
 # Sitemap config
 # 网站地图配置
