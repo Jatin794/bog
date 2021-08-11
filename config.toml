@@ -14,8 +14,7 @@ themesDir = "themes"
 title = "The Bog"
 
 # whether to use robots.txt
-# 是否使用 robots.txt
-enableRobotsTXT = true
+#enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
