@@ -14,13 +14,28 @@ themesDir = "themes"
 title = "The Bog"
 
 # whether to use robots.txt
-#enableRobotsTXT = true
+enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
+
+
+# HTTP headers
+[server]
+[[server.headers]]
+for = '/**.html'
+[server.headers.values]
+Content-Security-Policy = 'script-src localhost:1313'
+Referrer-Policy = 'strict-origin-when-cross-origin'
+X-Content-Type-Options = 'nosniff'
+X-Frame-Options = 'DENY'
+X-XSS-Protection = '1; mode=block'
+X-Robots-Tag = 'nofollow'
+X-Robots-Tag = 'index'
+
 
 [languages]
   [languages.en]
@@ -190,7 +205,7 @@ enableEmoji = true
         Twitter = "JatinNagpalTG"
         Instagram = "JatinNagpal42"
         Facebook = "JatinNagpal42"
-        Telegram = ""
+        Telegram = "xxxx"
         Medium = ""
         Gitlab = ""
         Goodreads = ""
@@ -209,18 +224,9 @@ enableEmoji = true
         Medium = ""
         Mix = ""
         Odnoklassniki = ""
-        ORCID = ""
-        Patreon = ""
-        Paypal = ""
-        Pinterest = ""
-        QQ = ""
-        QQGroup = ""
-        Quora = ""
-        Reddit = ""
-        Researchgate = ""
-        RSS = true
-        Skype = ""
-        Slidershare = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
         Snapchat = "JatinNagpal42"
         Soundcloud = ""
         Spotify = ""
@@ -258,6 +264,7 @@ enableEmoji = true
         Matrix = ""
         Bilibili = ""
         ORCID = ""
+<<<<<<< HEAD
         Liberapay = "xxx"
         Ko-Fi = "xxx"
         Email = "xxxx@xxxx.com"
@@ -632,7 +639,16 @@ enableEmoji = true
   title = "Hugo DoIt Theme Documentation"
 =======
         Email = "xxxx@xxxx.com"
+=======
+        Liberapay = ""
+        Ko-Fi = ""
+        Email = "admin@jatinnagpal.com"
+>>>>>>> d76a0cf6 (headers and config, removed chinese from config)
         RSS = true
+#        [languages.en.params.social.Mastodon]
+#          id = "@xxxx"
+#          prefix = "https://mastodon.technology/"
+
 
 [params]
 >>>>>>> 440bb87a (made it a site from example)
@@ -690,10 +706,14 @@ enableEmoji = true
       # title name
       # 标题名称
 <<<<<<< HEAD
+<<<<<<< HEAD
       name = "The Bog"
 =======
       name = "DoIt"
 >>>>>>> 440bb87a (made it a site from example)
+=======
+      name = "The Bog"
+>>>>>>> d76a0cf6 (headers and config, removed chinese from config)
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-edit fa-fw'></i>"
@@ -734,6 +754,7 @@ enableEmoji = true
     # site creation time
     # 网站创立年份
 <<<<<<< HEAD
+<<<<<<< HEAD
     since = 2021
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
@@ -743,9 +764,12 @@ enableEmoji = true
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
 =======
     since = 2019
+=======
+    since = 2021
+>>>>>>> d76a0cf6 (headers and config, removed chinese from config)
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
+    #icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
@@ -959,8 +983,8 @@ enableEmoji = true
       Buffer = false
       Xing = false
       Line = true
-      Instapaper = false
-      Pocket = false
+      Instapaper = true
+      Pocket = true
       Digg = false
 <<<<<<< HEAD
       Evernote = false
@@ -1121,8 +1145,12 @@ enableEmoji = true
       # Commento comment config (https://commento.io/)
       # Commento comment 评论系统设置 (https://commento.io/)
       [params.page.comment.commento]
+<<<<<<< HEAD
         enable = false
 >>>>>>> 440bb87a (made it a site from example)
+=======
+        enable = true
+>>>>>>> d76a0cf6 (headers and config, removed chinese from config)
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
