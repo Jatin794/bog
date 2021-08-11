@@ -11,7 +11,7 @@ math:
 
 ### About
 
-I thought about making something where I could host text content for anyone with high availability and speed. With that, this site is now born, titled The Bog. Content in here doesn't fall in any predefined category, but it's a fast and load balanced website, so share it as much as you want - I got the infrastructure to handle it. (Also, don't mind the content already in here - it's basically for demonstration purposes. I'll eventually remove it when we have in-house content.)
+I thought about making something where I could host text content for anyone with high availablibity and speed. With that, this site is now born, titled The Bog. Content in here doesn't fall in any predefined category, but it's a fast and load balanced website, so share it as much as you want - I got the infrastucture to handle it.
 
 If I know you IRL, just contact me to host your original content on here for any purpose. I can add a link to your own website if and when you want it. If you believe some content here was actually written by you, use the comments section, and we'll talk about it.
 
