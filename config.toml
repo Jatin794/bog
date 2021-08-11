@@ -123,9 +123,7 @@ X-Robots-Tag = 'index'
         weight = 8
     [languages.en.params]
       # site description
-
       description = "Private Content Hosting"
-
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -1165,6 +1163,7 @@ X-Robots-Tag = 'index'
       # Twikoo comment 评论系统设置 (https://twikoo.js.org/)
       [params.page.comment.twikoo]
 <<<<<<< HEAD
+<<<<<<< HEAD
         enable = false
         envId = "https://twikoo-comments-doit.vercel.app/"
         region = ""
@@ -1173,6 +1172,9 @@ X-Robots-Tag = 'index'
         commentCount = true
 =======
         enable = true
+=======
+        enable = false
+>>>>>>> 1a36eee0 (Social9 comments)
         envId = "https://doit-docs-comment-twikoo.vercel.app/"
         region = ""
         path = ""
@@ -1435,6 +1437,7 @@ X-Robots-Tag = 'index'
 # 作者配置
 [author]
 <<<<<<< HEAD
+<<<<<<< HEAD
   name = "Jatin Nagpal"
   email = ""
   link = "https://jatinnagpal.com/"
@@ -1445,6 +1448,11 @@ X-Robots-Tag = 'index'
   email = "heige.pcloud@outlook.com"
   link = "https://github.com/HEIGE-PCloud"
 >>>>>>> 440bb87a (made it a site from example)
+=======
+  name = "Jatin Nagpal"
+  email = ""
+  link = "https://jatinnagpal.com/"
+>>>>>>> 1a36eee0 (Social9 comments)
 
 # Sitemap config
 # 网站地图配置
