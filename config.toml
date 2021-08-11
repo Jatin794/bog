@@ -11,11 +11,10 @@ themesDir = "themes"
 
 # website title
 # 网站标题
-title = "DoIt"
+title = "The Bog"
 
 # whether to use robots.txt
-# 是否使用 robots.txt
-enableRobotsTXT = true
+#enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
