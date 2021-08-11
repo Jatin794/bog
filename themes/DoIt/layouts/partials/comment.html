@@ -163,8 +163,8 @@
         {{- /* Commento Comment System */ -}}
         {{- $commento := $comment.commento | default dict -}}
         {{- if $commento.enable -}}
-            <div id="commento"></div>
-            {{- dict "Source" "https://cdn.commento.io/js/commento.js" "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/pjaxScript.html" -}}
+            <div id="s9comments"></div>
+            {{- dict "Source" "https://social9.com/comments/js/s9comments.js" "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/pjaxScript.html" -}}
             <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
             </noscript>

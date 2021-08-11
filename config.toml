@@ -34,7 +34,6 @@ X-Content-Type-Options = 'nosniff'
 X-Frame-Options = 'DENY'
 X-XSS-Protection = '1; mode=block'
 X-Robots-Tag = 'nofollow'
-X-Robots-Tag = 'index'
 
 
 [languages]
@@ -123,7 +122,7 @@ X-Robots-Tag = 'index'
         weight = 8
     [languages.en.params]
       # site description
-      description = "About DoIt Theme"
+      description = "Private Content Hosting"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -206,7 +205,7 @@ X-Robots-Tag = 'index'
         Telegram = "xxxx"
         Medium = ""
         Gitlab = ""
-        Youtubelegacy = "xxxx"
+       # Youtubelegacy = "xxxx"
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
@@ -262,7 +261,7 @@ X-Robots-Tag = 'index'
         ORCID = ""
         Liberapay = ""
         Ko-Fi = ""
-        Email = "admin@jatinnagpal.com"
+        Email = ""
         RSS = true
 #        [languages.en.params.social.Mastodon]
 #          id = "@xxxx"
@@ -602,7 +601,7 @@ X-Robots-Tag = 'index'
       # Twikoo comment config (https://twikoo.js.org/)
       # Twikoo comment 评论系统设置 (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = true
+        enable = false
         envId = "https://doit-docs-comment-twikoo.vercel.app/"
         region = ""
         path = ""
@@ -766,9 +765,9 @@ X-Robots-Tag = 'index'
 # Author config
 # 作者配置
 [author]
-  name = "PCloud"
-  email = "heige.pcloud@outlook.com"
-  link = "https://github.com/HEIGE-PCloud"
+  name = "Jatin Nagpal"
+  email = ""
+  link = "https://jatinnagpal.com/"
 
 # Sitemap config
 # 网站地图配置
