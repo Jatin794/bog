@@ -760,6 +760,7 @@ X-Robots-Tag = 'index'
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
+<<<<<<< HEAD
 =======
     since = 2019
 =======
@@ -772,6 +773,8 @@ X-Robots-Tag = 'index'
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 >>>>>>> 440bb87a (made it a site from example)
+=======
+>>>>>>> dd85cbc8 (	modified:   config.toml)
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
