@@ -21,6 +21,6 @@ If I don't know you, well, tough luck. Currently I'm not offering a public servi
 
 Unless stated otherwise, the content (including this page) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-The authors may, of course, choose a more liberal license for their work, for which I'd recommend [WTFPL – Do What the Fuck You Want to Public License](http://www.wtfpl.net/) or [CC0 1.0 Universal (CC0 1.0) Public Domain License](https://creativecommons.org/publicdomain/zero/1.0/) if you feel particularly generous. Using a restrictive license that violates [free culture](https://creativecommons.org/share-your-work/public-domain/freeworks) is, however, not an option.
+The authors may, of course, choose a more liberal license for their work, for which I'd recommend [WTFPL – Do What the Fuck You Want to Public License](http://www.wtfpl.net/) ([mirror](../2021/wtfpl)) or [CC0 1.0 Universal (CC0 1.0) Public Domain License](https://creativecommons.org/publicdomain/zero/1.0/) if you feel particularly generous. Using a restrictive license that violates [free culture](https://creativecommons.org/share-your-work/public-domain/freeworks) is, however, not an option.
 
 Your comments are public domain by default, unless they contain sensitive information, in which case I recommend you to redact your private details from online comment sections.
