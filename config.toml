@@ -122,7 +122,9 @@ X-Robots-Tag = 'nofollow'
         weight = 8
     [languages.en.params]
       # site description
+
       description = "Private Content Hosting"
+
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -149,7 +151,7 @@ X-Robots-Tag = 'nofollow'
         # max number of results length
         maxResultLength = 10
         # snippet length of the result
-        snippetLength = 30
+        snippetLength = 300
         # HTML tag name of the highlight part in results
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
@@ -164,9 +166,9 @@ X-Robots-Tag = 'nofollow'
           minMatchCharLength = 2
           findAllMatches = false
           location = 0
-          threshold = 0.3
+          threshold = 0.1
           distance = 100
-          ignoreLocation = false
+          ignoreLocation = true
           useExtendedSearch = false
           ignoreFieldNorm = false
       # Home page config
@@ -202,7 +204,7 @@ X-Robots-Tag = 'nofollow'
         Twitter = "JatinNagpalTG"
         Instagram = "JatinNagpal42"
         Facebook = "JatinNagpal42"
-        Telegram = "xxxx"
+        Telegram = ""
         Medium = ""
         Gitlab = ""
        # Youtubelegacy = "xxxx"
@@ -262,13 +264,264 @@ X-Robots-Tag = 'nofollow'
         Liberapay = ""
         Ko-Fi = ""
         Email = ""
+        QQ = ""
+        QQGroup = ""
+        Ko-Fi = ""
+        BuyMeACoffee = ""
+        Linktree = ""
         RSS = true
 #        [languages.en.params.social.Mastodon]
 #          id = "@xxxx"
 #          prefix = "https://mastodon.technology/"
+      # Sponsor config
+      [languages.en.params.sponsor]
+        enable = false
+        bio = "If you find this post helpful, please consider sponsoring."
+        link = "https://github.com/sponsors/HEIGE-PCloud"
+        # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
+
+
+  [languages.zh-cn]
+    weight = 2
+    # 网站语言, 仅在这里 CN 大写
+    languageCode = "zh-CN"
+    # 语言名称
+    languageName = "简体中文"
+    # 是否包括中日韩文字
+    hasCJKLanguage = true
+    # 默认每页列表显示的文章数目
+    paginate = 12
+    # [UA-XXXXXXXX-X] 谷歌分析代号
+    googleAnalytics = ""
+    # 版权描述，仅仅用于 SEO
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # 菜单配置
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "posts"
+        # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+        pre = ""
+        # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+        post = ""
+        name = "所有文章"
+        url = "/posts/"
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "标签"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.zh-cn.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "分类"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.zh-cn.menu.main]]
+        identifier = "series"
+        pre = ""
+        post = ""
+        name = "系列"
+        url = "/series/"
+        title = ""
+        weight = 4
+      [[languages.zh-cn.menu.main]]
+        identifier = "authors"
+        pre = ""
+        post = ""
+        name = "作者"
+        url = "/authors/"
+        title = ""
+        weight = 5
+      [[languages.zh-cn.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        name = "文档"
+        url = "/categories/documentation/"
+        title = ""
+        weight = 6
+      [[languages.zh-cn.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "关于"
+        url = "/about/"
+        title = ""
+        weight = 7
+      [[languages.zh-cn.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/HEIGE-PCloud/DoIt"
+        title = "GitHub"
+        weight = 8
+    [languages.zh-cn.params]
+      # 网站描述
+      description = "Hugo DoIt 主题官方文档"
+      # 网站关键词
+      keywords = ["Theme", "Hugo"]
+      # 应用图标配置
+      [languages.zh-cn.params.app]
+        # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
+        title = "DoIt"
+        # 是否隐藏网站图标资源链接
+        noFavicon = false
+        # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
+        svgFavicon = ""
+        # Safari 图标颜色
+        iconColor = "#5bbad5"
+        # Windows v8-10 磁贴颜色
+        tileColor = "#da532c"
+      # 搜索配置
+      [languages.zh-cn.params.search]
+        enable = true
+        # 搜索引擎的类型 ("lunr", "algolia", "fuse")
+        type = "algolia"
+        # 文章内容最长索引长度
+        contentLength = 4000
+        # 搜索框的占位提示语
+        placeholder = ""
+        # 最大结果数目
+        maxResultLength = 10
+        # 结果内容片段长度
+        snippetLength = 50
+        # 搜索结果中高亮部分的 HTML 标签
+        highlightTag = "em"
+        # 是否在搜索索引中使用基于 baseURL 的绝对路径
+        absoluteURL = false
+        [languages.zh-cn.params.search.algolia]
+          index = "zh_cn_index"
+          appID = "5YGRNRQK1G"
+          searchKey = "0ff6874805de24b84aa1d5ebccad56cd"
+        [languages.zh-cn.params.search.fuse]
+          # https://fusejs.io/api/options.html
+          isCaseSensitive = false
+          minMatchCharLength = 2
+          findAllMatches = false
+          location = 0
+          threshold = 0.1
+          distance = 100
+          ignoreLocation = true
+          useExtendedSearch = false
+          ignoreFieldNorm = false
+      # 主页信息设置
+      [languages.zh-cn.params.home]
+        # RSS 文章数目
+        rss = 10
+        # 主页个人信息
+        [languages.zh-cn.params.home.profile]
+          enable = true
+          # Gravatar 邮箱，用于优先在主页显示的头像
+          gravatarEmail = ""
+          # 主页显示头像的 URL
+          avatarURL = "/images/avatar.webp"
+          # 主页显示的网站标题 (支持 HTML 格式)
+          title = ""
+          # 主页显示的网站副标题
+          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          # 是否为副标题显示打字机动画
+          typeit = true
+          # 是否显示社交账号
+          social = true
+          # 免责声明 (支持 HTML 格式)
+          disclaimer = ""
+        # 主页文章列表
+        [languages.zh-cn.params.home.posts]
+          enable = true
+          # 主页每页显示文章数量
+          paginate = 7
+      # 主页的社交信息设置
+      [languages.zh-cn.params.social]
+        GitHub = "xxxx"
+        Linkedin = ""
+        Twitter = ""
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = "xxxx"
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = "xxxx"
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = "xxxx"
+        Douban = "xxxx"
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Mastodon = ""
+        Thingiverse = ""
+        Devto = "xxxx"
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = "xxxx"
+        ORCID = ""
+        Liberapay = ""
+        Ko-Fi = ""
+        BuyMeACoffee = ""
+        Linktree = ""
+        QQ = ""
+        QQGroup = ""
+        Email = "admin@jatinnagpal.com"
+        RSS = true
+        # 赞助设置
+      [languages.zh-cn.params.sponsor]
+        enable = false
+        bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
+        link = "https://github.com/sponsors/HEIGE-PCloud"
+        # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
 
 
 [params]
+  # website title
+  # 网站标题
+  title = "Hugo DoIt Theme Documentation"
   # DoIt theme version
   # DoIt 主题版本
   version = "0.2.X"
@@ -286,7 +539,7 @@ X-Robots-Tag = 'nofollow'
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["/images/avatar.webp"]
   # enable PWA
   # 开启 PWA 支持
   enablePWA = true
@@ -319,7 +572,7 @@ X-Robots-Tag = 'nofollow'
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = false
+      typeit = true
 
   # Footer config
   # 页面底部信息配置
@@ -359,6 +612,13 @@ X-Robots-Tag = 'nofollow'
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
+    # recently updated posts settings
+    # 最近更新文章设置
+    [params.section.recentlyUpdated]
+      enable = true
+      rss = true
+      days = 30
+      maxCount = 10
 
   # List (category or tag) page config
   # List (目录或标签) 页面配置
@@ -406,6 +666,16 @@ X-Robots-Tag = 'nofollow'
     # Page style ("normal", "wide")
     # 页面样式 ("normal", "wide")
     pageStyle = "wide"
+    # Display a message at the beginning of an article to warn the reader that its content might be outdated.
+    # 在文章开头显示提示信息，提醒读者文章内容可能过时。
+    [params.page.outdatedArticleReminder]
+      enable = true
+      # Display the reminder if the last modified time is more than 90 days ago.
+      # 如果文章最后更新于这天数之前，显示提醒
+      reminder = 90
+      # Display warning if the last modified time is more than 180 days ago.
+      # 如果文章最后更新于这天数之前，显示警告
+      warning = 180
     # Table of the contents config
     # 目录配置
     [params.page.toc]
@@ -550,21 +820,18 @@ X-Robots-Tag = 'nofollow'
       # Waline 评论系统设置 (https://waline.js.org)
       [params.page.comment.waline]
         enable = false
-        serverURL = "https://doit-docs-comment.vercel.app/"
-        placeholder = "Just Go Go."
+        serverURL = ""
+        visitor = false
+        emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+        meta = ['nick', 'mail', 'link']
+        requiredMeta = []
+        login = 'enable'
         wordLimit = 0
-        avatar = "mp"
-        meta = ["nick", "mail", "link"]
         pageSize = 10
-        lang = "en"
-        visitor = true
+        uploadImage = false
         highlight = true
-        avatarCDN = ""
-        avatarForce = false
-        emojiCDN = ""
-        emojiMaps = ""
-        requiredFields = []
-        anonymous = false
+        mathTagSupport = false
+        commentCount = false
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
@@ -584,6 +851,7 @@ X-Robots-Tag = 'nofollow'
         colorful = true
         dislikes = false
         outlined = false
+        dark = false
       # Commento comment config (https://commento.io/)
       # Commento comment 评论系统设置 (https://commento.io/)
       [params.page.comment.commento]
@@ -606,6 +874,7 @@ X-Robots-Tag = 'nofollow'
         region = ""
         path = ""
         visitor = true
+        commentCount = true
       # Vssue comment config (https://vssue.js.org//)
       # Vssue comment 评论系统设置 (https://vssue.js.org//)
       [params.page.comment.vssue]
@@ -615,6 +884,15 @@ X-Robots-Tag = 'nofollow'
         repo = ""
         clientId = ""
         clientSecret = ""
+      # Remark42 comment config (https://remark42.com/)
+      # Remark42 comment 评论系统设置 (https://remark42.com/)
+      [params.page.comment.remark42]
+        enable = false
+        host = ""
+        site_id = ""
+        max_shown_comments = 15
+        show_email_subscription = true
+        simple_view = false
     # Third-party library config
     # 第三方库配置
     [params.page.library]
@@ -640,6 +918,14 @@ X-Robots-Tag = 'nofollow'
         name = "xxxx"
         logoUrl = "/images/avatar.webp"
 
+  # Sponsor config
+  # 赞助设置
+  [params.sponsor]
+    enable = false
+    bio = "If you find this post helpful, please consider sponsoring."
+    link = "https://github.com/sponsors/HEIGE-PCloud"
+    # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
+
   # TypeIt config
   # TypeIt 配置
   [params.typeit]
@@ -664,6 +950,8 @@ X-Robots-Tag = 'nofollow'
     yandex = ""
     pinterest = ""
     baidu = ""
+    so = ""
+    sogou = ""
 
   # Site SEO config
   # 网站 SEO 配置
@@ -691,6 +979,18 @@ X-Robots-Tag = 'nofollow'
       # server url for your tracker if you're self hosting
       # 自行托管追踪器时的主机路径
       server = ""
+    # Baidu Analytics
+    [params.analytics.baidu]
+      id = ""
+    # Umami Analytics
+    [params.analytics.umami]
+      data_website_id = ""
+      src = ""
+      data_domains = ""
+    # Plausible Analytics
+    [params.analytics.plausible]
+      data_domain = ""
+      src = ""
 
   # Cookie consent config
   # Cookie 许可配置
@@ -768,6 +1068,8 @@ X-Robots-Tag = 'nofollow'
   name = "Jatin Nagpal"
   email = ""
   link = "https://jatinnagpal.com/"
+  avatar = "/images/avatar.webp"
+  gravatarEmail = ""
 
 # Sitemap config
 # 网站地图配置
