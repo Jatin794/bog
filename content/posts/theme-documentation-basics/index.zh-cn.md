@@ -197,6 +197,8 @@ hugo
 [params]
   # {{< version 0.2.0 changed >}} DoIt 主题版本
   version = "0.2.X"
+  # 网站名称
+  title = "我的全新 Hugo 网站"
   # 网站描述
   description = "这是我的全新 Hugo 网站"
   # 网站关键词
@@ -308,6 +310,12 @@ hugo
     dateFormat = "01-02"
     # RSS 文章数目
     rss = 10
+    # {{< version 0.2.13 >}} 最近更新文章设置
+    [params.section.recentlyUpdated]
+      enable = false
+      rss = false
+      days = 30
+      maxCount = 10
 
   # {{< version 0.2.0 >}} List (目录或标签) 页面配置
   [params.list]
@@ -417,6 +425,10 @@ hugo
     ORCID = ""
     Liberapay = ""
     Ko-Fi = ""
+    BuyMeACoffee = ""
+    Linktree = ""
+    QQ = ""
+    QQGroup = ""
     Email = "xxxx@xxxx.com"
     RSS = true # {{< version 0.2.0 >}}
 
@@ -442,6 +454,13 @@ hugo
     rssFullText = false
     # {{< version 0.2.11 >}} 页面样式 ("normal", "wide")
     pageStyle = "normal"
+    # {{< version 0.2.13 >}} 过时文章提示
+    [params.page.outdatedArticleReminder]
+      enable = true
+      # 如果文章最后更新于 90 天之前，显示提醒
+      reminder = 90
+      # 如果文章最后更新于 180 天之前，显示警告
+      warning = 180
     # {{< version 0.2.0 >}} 目录配置
     [params.page.toc]
       # 是否使用目录
@@ -555,23 +574,20 @@ hugo
         emoji = ""
       # {{< link "https://github.com/xCss/Valine" Waline >}} 评论系统设置
       [params.page.comment.waline]
-        # {{< version 0.2.11 >}}
+        # {{< version 0.2.13 changed >}}
         enable = false
         serverURL = ""
-        placeholder = "Just Go Go."
+        visitor = false
+        emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+        meta = ['nick', 'mail', 'link']
+        requiredMeta = []
+        login = 'enable'
         wordLimit = 0
-        avatar = "mp"
-        meta = ["nick", "mail", "link"]
         pageSize = 10
-        lang = "en"
-        visitor = true
+        uploadImage = false
         highlight = true
-        avatarCDN = ""
-        avatarForce = false
-        emojiCDN = ""
-        emojiMaps = ""
-        requiredFields = []
-        anonymous = false
+        mathTagSupport = false
+        commentCount = true
       # {{< link "https://developers.facebook.com/docs/plugins/comments" "Facebook 评论系统" >}}设置
       [params.page.comment.facebook]
         enable = false
@@ -589,6 +605,7 @@ hugo
         colorful = true
         dislikes = false
         outlined = false
+        dark = false
       # {{< version 0.2.0 >}} {{< link "https://commento.io/" "Commento" >}} 评论系统设置
       [params.page.comment.commento]
         enable = false
@@ -608,6 +625,7 @@ hugo
         region = ""
         path = ""
         visitor = true
+        commentCount = true
       # {{< version 0.2.12 >}} {{< link "https://vssue.js.org/" "Vssue" >}} 评论系统设置
       [params.page.comment.vssue]
         enable = false
@@ -616,6 +634,14 @@ hugo
         repo = ""
         clientId = ""
         clientSecret = ""
+      # {{< version 0.2.13 >}} {{< link "https://remark42.com/" "Remark42" >}} 评论系统设置
+      [params.page.comment.remark42]
+        enable = false
+        host = ""
+        site_id = ""
+        max_shown_comments = 15
+        show_email_subscription = true
+        simple_view = false
     # {{< version 0.2.7 >}} 第三方库配置
     [params.page.library]
       [params.page.library.css]
@@ -637,6 +663,13 @@ hugo
         name = ""
         logoUrl = ""
 
+  # {{< version 0.2.13 >}} 赞赏配置
+  [params.sponsor]
+    enable = false
+    bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
+    link = "https://www.buymeacoffee.com" # 你的赞赏页面的地址
+    custom = "" # 自定义 HTML 
+
   # {{< version 0.2.5 >}} TypeIt 配置
   [params.typeit]
     # 每一步的打字速度 (单位是毫秒)
@@ -655,6 +688,8 @@ hugo
     yandex = ""
     pinterest = ""
     baidu = ""
+    so = "" # 360 search
+    sogou = ""
 
   # {{< version 0.2.10 >}} 网站 SEO 配置
   [params.seo]
@@ -676,6 +711,18 @@ hugo
       id = ""
       # 自行托管追踪器时的主机路径
       server = ""
+    # {{< version 0.2.13 >}} Baidu Analytics
+    [params.analytics.baidu]
+      id = ""
+    # {{< version 0.2.13 >}} Umami Analytics
+    [params.analytics.umami]
+      data_website_id = ""
+      src = ""
+      data_domains = ""
+    # {{< version 0.2.13 >}} Plausible Analytics
+    [params.analytics.plausible]
+      data_domain = ""
+      src = ""
 
   # {{< version 0.2.7 >}} Cookie 许可配置
   [params.cookieconsent]
@@ -736,6 +783,8 @@ hugo
   name = "xxxx"
   email = ""
   link = ""
+  avatar = ""
+  gravatarEmail = ""
 
 # 网站地图配置
 [sitemap]

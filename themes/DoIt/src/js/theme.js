@@ -254,16 +254,16 @@ function initSearch() {
                             .then(data => {
                                 const indexData = {};
                                 window._index = lunr(function () {
-                                    if (searchConfig.lunrLanguageCode) window.use(lunr[searchConfig.lunrLanguageCode]);
-                                    window.ref('objectID');
-                                    window.field('title', { boost: 50 });
-                                    window.field('tags', { boost: 20 });
-                                    window.field('categories', { boost: 20 });
-                                    window.field('content', { boost: 10 });
-                                    window.metadataWhitelist = ['position'];
+                                    if (searchConfig.lunrLanguageCode) this.use(lunr[searchConfig.lunrLanguageCode]);
+                                    this.ref('objectID');
+                                    this.field('title', { boost: 50 });
+                                    this.field('tags', { boost: 20 });
+                                    this.field('categories', { boost: 20 });
+                                    this.field('content', { boost: 10 });
+                                    this.metadataWhitelist = ['position'];
                                     data.forEach((record) => {
                                         indexData[record.objectID] = record;
-                                        window.add(record);
+                                        this.add(record);
                                     });
                                 });
                                 window._indexData = indexData;
@@ -536,7 +536,16 @@ function initToc() {
         const headerHeight = document.getElementById('header-desktop').offsetHeight;
         const TOP_SPACING = 20 + (headerIsFixed ? headerHeight : 0);
         const minTocTop = $toc.offsetTop;
-        const minScrollTop = minTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight);
+        const minScrollTop = minTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight)
+        window._tocOnResize = (() => {
+            if ($tocCore.offsetHeight > window.innerHeight - TOP_SPACING) {
+                $tocCore.style.height = `${window.innerHeight - $tocCore.getBoundingClientRect().top}px`;
+            } else {
+                $tocCore.style.removeProperty('height');
+            }
+        });
+        window._tocOnResize();
+        window.resizeEventSet.add(window._tocOnResize);        
         window._tocOnScroll = (() => {
             const footerTop = document.getElementById('post-footer').offsetTop;
             const maxTocTop = footerTop - $toc.getBoundingClientRect().height;
@@ -679,24 +688,26 @@ function initTypeit() {
         Object.values(typeitConfig.data).forEach(group => {
             const typeone = (i) => {
                 const id = group[i];
-                const instance = new TypeIt(`#${id}`, {
-                    strings: window.data[id],
-                    speed: speed,
-                    lifeLike: true,
-                    cursorSpeed: cursorSpeed,
-                    cursorChar: cursorChar,
-                    waitUntilVisible: true,
-                    afterComplete: () => {
-                        if (i === group.length - 1) {
-                            if (typeitConfig.duration >= 0) window.setTimeout(() => {
-                                instance.destroy();
-                            }, typeitConfig.duration);
-                            return;
-                        }
-                        instance.destroy();
-                        typeone(i + 1);
-                    },
-                }).go();
+                if (!document.getElementById(id).hasAttribute("data-typeit-id")) {
+                    const instance = new TypeIt(`#${id}`, {
+                        strings: window.data[id],
+                        speed: speed,
+                        lifeLike: true,
+                        cursorSpeed: cursorSpeed,
+                        cursorChar: cursorChar,
+                        waitUntilVisible: true,
+                        afterComplete: () => {
+                            if (i === group.length - 1) {
+                                if (typeitConfig.duration >= 0) window.setTimeout(() => {
+                                    instance.destroy();
+                                }, typeitConfig.duration);
+                                return;
+                            }
+                            instance.destroy();
+                            typeone(i + 1);
+                        },
+                    }).go();
+                }
             };
             typeone(0);
         });
@@ -712,7 +723,28 @@ function initComment() {
         }
         if (window.config.comment.valine) new Valine(window.config.comment.valine);
         if (window.config.comment.waline) new Waline(window.config.comment.waline);
-        if (window.config.comment.twikoo) twikoo.init(window.config.comment.twikoo);
+        if (window.config.comment.twikoo) {
+            twikoo.init(window.config.comment.twikoo);
+            if (window.config.comment.twikoo.commentCount) {
+                twikoo.getCommentsCount({
+                    envId: window.config.comment.twikoo.envId,
+                    region: window.config.comment.twikoo.region,
+                    urls: [
+                        window.location.pathname
+                    ],
+                    includeReply: false
+                  }).then(function (res) {
+                    // example: [
+                    //   { url: '/2020/10/post-1.html', count: 10 },
+                    //   { url: '/2020/11/post-2.html', count: 0 },
+                    //   { url: '/2020/12/post-3.html', count: 20 }
+                    // ]
+                    document.getElementById('twikoo-comment-count').innerHTML = res[0].count;
+                  }).catch(function (err) {
+                    console.error(err);
+                  });
+            }
+        } 
         if (window.config.comment.utterances) {
             const utterancesConfig = window.config.comment.utterances;
             const script = document.createElement('script');
@@ -752,6 +784,29 @@ function initComment() {
                 })
             })
         }
+        if (window.config.comment.remark42) {
+            let remark42 = window.config.comment.remark42;
+            var remark_config = {
+                host: remark42.host,
+                site_id: remark42.site_id,
+                components: ['embed'],
+                max_shown_comments: remark42.max_shown_comments,
+                theme: window.isDark ? 'dark' : 'light',
+                locale: remark42.locale,
+                show_email_subscription: remark42.show_email_subscription,
+                simple_view: remark42.simple_view
+            };
+            window.remark_config = remark_config;
+            !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+            window._remark42OnSwitchTheme = (() => {
+                if (window.isDark) {
+                    window.REMARK42.changeTheme('dark');
+                } else {
+                    window.REMARK42.changeTheme('light');
+                }
+            });
+            window.switchThemeEventSet.add(window._remark42OnSwitchTheme);
+        }
     }
 }
 
@@ -763,22 +818,18 @@ function initMeta() {
                 return metas[i];
             }
         }
-        return '';
     }
     let themeColorMeta = getMeta('theme-color');
-    if (window.isDark) {
-        themeColorMeta.content = '#000000';
-    } else {
-        themeColorMeta.content = '#ffffff';
+    let metaColors = {
+        'light': '#f8f8f8',
+        'dark': '#252627',
+        'black': '#000000'
     }
     window._metaThemeColorOnSwitchTheme = (() => {
-        if (window.isDark) {
-            themeColorMeta.content = '#000000';
-        } else {
-            themeColorMeta.content = '#ffffff';
-        }
+        themeColorMeta.content = metaColors[document.body.getAttribute('theme')];
     });
     window.switchThemeEventSet.add(window._metaThemeColorOnSwitchTheme);
+    window._metaThemeColorOnSwitchTheme();
 }
 
 function initCookieconsent() {

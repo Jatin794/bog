@@ -1,0 +1,1460 @@
+<!doctype html>  
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js"><!--<![endif]-->
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>  Feedback</title>
+		
+		<!-- Google Chrome Frame for IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<!-- mobile meta (hooray!) -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<!-- icons & favicons (for more: http://themble.com/support/adding-icons-favicons/) -->
+		<link rel="shortcut icon" href="http://www.wtfpl.net/wp-content/themes/bones/favicon.ico">
+				
+  		<link rel="pingback" href="http://www.wtfpl.net/xmlrpc.php">
+		
+		<!-- wordpress head functions -->
+		<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="WTFPL - Do What the Fuck You Want to Public License &raquo; Feedback Comments Feed" href="http://www.wtfpl.net/feedback/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.wtfpl.net\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bones-stylesheet-css'  href='http://www.wtfpl.net/wp-content/themes/bones/library/css/style.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='http://www.wtfpl.net/wp-content/themes/bones/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.wtfpl.net/wp-content/themes/bones/library/js/libs/modernizr.custom.min.js'></script>
+<script type='text/javascript' src='http://www.wtfpl.net/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://www.wtfpl.net/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<link rel='https://api.w.org/' href='http://www.wtfpl.net/wp-json/' />
+<link rel="canonical" href="http://www.wtfpl.net/feedback/" />
+<link rel='shortlink' href='http://www.wtfpl.net/?p=41' />
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/json+oembed" href="http://www.wtfpl.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wtfpl.net%2Ffeedback%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.wtfpl.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wtfpl.net%2Ffeedback%2F&#038;format=xml" />
+<!-- This site is powered by Tweet, Like, Plusone and Share Plugin - http://letusbuzz.com/tweet-share-like-plusone/ -->
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Feedback" />
+	<meta property="og:url" content="http://www.wtfpl.net/feedback/"/>
+	<meta property="og:site_name" content="WTFPL &#8211; Do What the Fuck You Want to Public License" />
+	<meta property="og:description" content="Are you a happy user of the WTFPL? A dissatisfied switcher? A skeptic? Let us know!  You can use the form below, or email us at contact@wtfpl.net. "/>
+	<style type="text/css">div.socialicons{float:left;display:block;margin-right: 10px;}div.socialicons p{margin-bottom: 0px !important;margin-top: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}</style>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script><script type="text/javascript" src="https://platform.linkedin.com/in.js"></script>		<!-- end of wordpress head -->
+			
+		<!-- drop Google Analytics Here -->
+		<!-- end analytics -->
+		
+	</head>
+	
+	<body class="page-template-default page page-id-41">
+	
+		<div id="container">
+			
+			<header class="header" role="banner">
+			
+				<div id="inner-header" class="wrap clearfix">
+					
+					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
+					<p id="logo" class="h1"><a href="http://www.wtfpl.net" rel="nofollow">WTFPL &#8211; Do What the Fuck You Want to Public License</a></p>
+					
+					<!-- if you'd like to use the site description you can un-comment it below -->
+										
+					
+					<nav role="navigation">
+						<div class="nav footer-nav clearfix"><ul><li ><a href="http://www.wtfpl.net/">Home</a></li><li class="page_item page-item-2"><a href="http://www.wtfpl.net/about/">About the WTFPL</a></li><li class="page_item page-item-106"><a href="http://www.wtfpl.net/blog/">Blog</a></li><li class="page_item page-item-43"><a href="http://www.wtfpl.net/showcase/">WTFPL Showcase</a></li><li class="page_item page-item-22"><a href="http://www.wtfpl.net/faq/">Frequently Asked Questions</a></li><li class="page_item page-item-48"><a href="http://www.wtfpl.net/download/">WTFPL Downloads</a></li><li class="page_item page-item-41 current_page_item"><a href="http://www.wtfpl.net/feedback/">Feedback</a></li></ul></div>					</nav>
+				
+				</div> <!-- end #inner-header -->
+			
+			</header> <!-- end header -->
+			
+			<div id="content">
+			
+				<div id="inner-content" class="wrap clearfix">
+			
+                                    <div class="onecol first clearfix" role="complementary"> <p></p> </div>
+				    <div id="main" class="tencol clearfix" role="main">
+
+					    					
+					    <article id="post-41" class="clearfix post-41 page type-page status-publish hentry" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+						
+						    <header class="article-header">
+							
+							    <h1 class="page-title" itemprop="headline">Feedback</h1>
+                  <p class="byline vcard">Posted <time class="updated" datetime="2012-12-27" pubdate>December 27th, 2012</time> by <span class="author"><a href="http://www.wtfpl.net/author/admin/" title="Posts by Sam Hocevar" rel="author">Sam Hocevar</a></span>.</p>
+
+						
+						    </header> <!-- end article header -->
+					
+						    <section class="entry-content clearfix" itemprop="articleBody">
+							    <p>Are you a happy user of the WTFPL? A dissatisfied switcher? A skeptic? Let us know!</p>
+<p>You can use the form below, or email us at <a href="mailto:contact@wtfpl.net">contact@wtfpl.net</a>.</p>
+<div class="social4i" style="height:29px;">
+<div class="social4in" style="height:29px;float: right;">
+<div class="socialicons s4twitter" style="float:left;margin-right: 10px;"><a href="https://twitter.com/share" data-url="http://www.wtfpl.net/feedback/" data-counturl="http://www.wtfpl.net/feedback/" data-text="Feedback" class="twitter-share-button" data-count="horizontal" data-via=""></a></div>
+<div class="socialicons s4fblike" style="float:left;margin-right: 10px;">
+<div id="fb-root"></div>
+<p><fb:like href="http%3A%2F%2Fwww.wtfpl.net%2Ffeedback%2F" send="false" layout="button_count" width="100" height="21" show_faces="false" font=""></fb:like></div>
+<div class="socialicons s4plusone" style="float:left;margin-right: 10px;"><g:plusone size="medium" href="http://www.wtfpl.net/feedback/" count="true"></g:plusone></div>
+<div class="socialicons s4linkedin" style="float:left;margin-right: 10px;"><script type="in/share" data-url="http://www.wtfpl.net/feedback/" data-counter="right"></script></div>
+<div class="socialicons s4fbshare" style="position: relative;float:left;margin-right: 10px;">
+<div class="s4ifbshare" ><a name="fb_share" type="button_count" share_url="http%3A%2F%2Fwww.wtfpl.net%2Ffeedback%2F" href="http://www.facebook.com/sharer.php"></a></div>
+</div>
+</div>
+<div style="clear:both"></div>
+</div>
+							</section> <!-- end article section -->
+						
+						    <footer class="article-footer">
+                  							
+						    </footer> <!-- end article footer -->
+						    
+						    
+<!-- You can start editing here. -->
+
+	<h3 id="comments" class="h2"><span>78</span> Responses to &#8220;Feedback&#8221;</h3>
+
+	<nav id="comment-nav">
+		<ul class="clearfix">
+	  		<li></li>
+	  		<li></li>
+	 	</ul>
+	</nav>
+	
+	<ol class="commentlist">
+			<li class="comment even thread-even depth-1">
+		<article id="comment-2" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/b76e5c31791210f97b8fa51e7675d1cb?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Alain Thviillon</cite>				<time datetime="2012-12-28"><a href="http://www.wtfpl.net/feedback/#comment-2">December 28th, 2012 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Dans votre logo je vois une paire de couilles, je crois que vous devriez mettre les balises HTML qui vont bien pour que ce site soit repéré comme pornographique par les éditeurs de solutions de filtrage, afin que ceux-ci puissent protéger nos enfants. Sinon, je me verrais obligé de vous dénoncer auprès d&#8217;INTERNET !</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=2#respond' data-commentid="2" data-postid="41" data-belowelement="comment-2" data-respondelement="respond" aria-label='Reply to Alain Thviillon'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment odd alt depth-2">
+		<article id="comment-3" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/623901d9b094011eb8d67cba4ed05618?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://www.yanluo.net' rel='external nofollow' class='url'>Gérald</a></cite>				<time datetime="2012-12-28"><a href="http://www.wtfpl.net/feedback/#comment-3">December 28th, 2012 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Alain, sois rassuré, Scully s&#8217;en charge déjà : <a href="http://www.youtube.com/watch?v=v1MTVUqfPAo" rel="nofollow">http://www.youtube.com/watch?v=v1MTVUqfPAo</a></p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=3#respond' data-commentid="3" data-postid="41" data-belowelement="comment-3" data-respondelement="respond" aria-label='Reply to Gérald'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-12" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/c4d3b04e409a6c544f14a6956ea0f9d9?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Bernd</cite>				<time datetime="2013-01-2"><a href="http://www.wtfpl.net/feedback/#comment-12">January 2nd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>You have a wrong defenition of freedom™.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=12#respond' data-commentid="12" data-postid="41" data-belowelement="comment-12" data-respondelement="respond" aria-label='Reply to Bernd'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2">
+		<article id="comment-13" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/50e8566ae648791d494e7316ed51bbbe?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Sam Hocevar</cite>				<time datetime="2013-01-2"><a href="http://www.wtfpl.net/feedback/#comment-13">January 2nd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<blockquote><p><b><span style="font-size: 1.6em">free·dom</span></b><br />
+/ˈfrēdəm/<br />
+<b>Noun</b><br />
+The power or right to act, speak, or think as one wants without hindrance or restraint.</p></blockquote>
+<p>Well if that doesn&#8217;t imply doing what the fuck you want to, I wonder what else it means. Please enlighten us on the correct definition of freedom™.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=13#respond' data-commentid="13" data-postid="41" data-belowelement="comment-13" data-respondelement="respond" aria-label='Reply to Sam Hocevar'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-3">
+		<article id="comment-15" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/17e922b50957d152280d6140c6756444?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Karel</cite>				<time datetime="2013-01-3"><a href="http://www.wtfpl.net/feedback/#comment-15">January 3rd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>It&#8217;s &#8220;free&#8221; as in &#8220;free speech&#8221;, not as in &#8220;free beer&#8221;.</p>
+<p>I don&#8217;t really know the difference but you should not play the first one on TiVo.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=15#respond' data-commentid="15" data-postid="41" data-belowelement="comment-15" data-respondelement="respond" aria-label='Reply to Karel'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3">
+		<article id="comment-18058" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/d593a36fb27c41445fade43a1fdd632c?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://deshackra.com' rel='external nofollow' class='url'>shackra sislock</a></cite>				<time datetime="2014-01-15"><a href="http://www.wtfpl.net/feedback/#comment-18058">January 15th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>&#8220;Freedom consists not in doing what we like, but in having the right to do what we ought.&#8221; ~Blessed Pope<br />
+John Paul II, Homily Of His Holiness John Paul II. Oriole park at Camden Yards, Baltimore. Sunday, 8 October 1995. <a href="http://ur1.ca/gf7e2" rel="nofollow">http://ur1.ca/gf7e2</a></p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=18058#respond' data-commentid="18058" data-postid="41" data-belowelement="comment-18058" data-respondelement="respond" aria-label='Reply to shackra sislock'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-18" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/ab8f6195b89f27b819fb45c933c92b53?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">nanashi san</cite>				<time datetime="2013-01-4"><a href="http://www.wtfpl.net/feedback/#comment-18">January 4th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Are web pages and images, in WTFPL web site, licensed under WTFPL?</p>
+<p>Can I translate the FAQ page into other languages? Can I modify WTFPL buttons? Can I do WHAT THE FUCK everything?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=18#respond' data-commentid="18" data-postid="41" data-belowelement="comment-18" data-respondelement="respond" aria-label='Reply to nanashi san'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2">
+		<article id="comment-23" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/50e8566ae648791d494e7316ed51bbbe?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Sam Hocevar</cite>				<time datetime="2013-01-5"><a href="http://www.wtfpl.net/feedback/#comment-23">January 5th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Text and images are under the WTFPL. The licensing of the webpage stylesheets is still unclear and we are going to fix this inconsistency soon. Feel free to do what the fuck you want to.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=23#respond' data-commentid="23" data-postid="41" data-belowelement="comment-23" data-respondelement="respond" aria-label='Reply to Sam Hocevar'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-3">
+		<article id="comment-25" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/ab8f6195b89f27b819fb45c933c92b53?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">nanashi san</cite>				<time datetime="2013-01-6"><a href="http://www.wtfpl.net/feedback/#comment-25">January 6th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I am happiness itself. Thank you.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=25#respond' data-commentid="25" data-postid="41" data-belowelement="comment-25" data-respondelement="respond" aria-label='Reply to nanashi san'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-26" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/77dab1cf6a9c641933e3a8153435f494?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Marcel Foutre</cite>				<time datetime="2013-01-6"><a href="http://www.wtfpl.net/feedback/#comment-26">January 6th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>The jpg on the front page is 865 989 bytes. This is clearly an act of discrimination against low-bandwidth disadvantaged users.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=26#respond' data-commentid="26" data-postid="41" data-belowelement="comment-26" data-respondelement="respond" aria-label='Reply to Marcel Foutre'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-2">
+		<article id="comment-61" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/9fcef2d28f423ddcf5a09dd1b36e8bd5?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Steve Paesani</cite>				<time datetime="2013-01-20"><a href="http://www.wtfpl.net/feedback/#comment-61">January 20th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Ah, young padme, you ask fo e-enlightenment.</p>
+<p>Freedom defined as the power or right to act, speak, or think as one wants without hindrance or restraint is freedom hindered by the freedom of another.</p>
+<p>Now, If I could in fact &#8220;do whatever the fuck I want&#8221; with the WTFPL I&#8217;d call it whatever the fuck I want because that&#8217;s the &#8220;freedom&#8221; YOU are looking to push.</p>
+<p>Be mindfull padme.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=61#respond' data-commentid="61" data-postid="41" data-belowelement="comment-61" data-respondelement="respond" aria-label='Reply to Steve Paesani'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-34" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/5ae1d64aa4c59f17324aa2ea9f376015?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Anonymous Coward</cite>				<time datetime="2013-01-14"><a href="http://www.wtfpl.net/feedback/#comment-34">January 14th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Could you remove references to religion-gays-abortions from FAQ? I want the most permissive license. I don&#8217;t want to make political statements or moral pronouncements. The &#8220;But profanity is offensive!&#8221; rant makes it look like WTFPL users should care if gays or atheists are killed. What if I don&#8217;t give a fuck? The first two sentences would suffice.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=34#respond' data-commentid="34" data-postid="41" data-belowelement="comment-34" data-respondelement="respond" aria-label='Reply to Anonymous Coward'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-2">
+		<article id="comment-40" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/7f0e12442a639362d0cc851a8ad86fbb?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Banlu Kemiyatorn</cite>				<time datetime="2013-01-16"><a href="http://www.wtfpl.net/feedback/#comment-40">January 16th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>The point of the license was that you shouldn&#8217;t care. wtfpl wasn&#8217;t created to promote any organization or religion. It was made to represent an individual&#8217;s decision. If you like it just take it, say it as in your own words.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=40#respond' data-commentid="40" data-postid="41" data-belowelement="comment-40" data-respondelement="respond" aria-label='Reply to Banlu Kemiyatorn'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt depth-2">
+		<article id="comment-352" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/52accb1ec91e523133d14138ada8a840?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://hiresteve.com' rel='external nofollow' class='url'>Steve Foerster</a></cite>				<time datetime="2013-03-29"><a href="http://www.wtfpl.net/feedback/#comment-352">March 29th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Then don&#8217;t use it.  Or change it to suit your needs.  Also, if you really don&#8217;t care about people being killed because of what they believe or who they are, then you&#8217;re part of the problem in this world.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=352#respond' data-commentid="352" data-postid="41" data-belowelement="comment-352" data-respondelement="respond" aria-label='Reply to Steve Foerster'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-35" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/7f0e12442a639362d0cc851a8ad86fbb?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Banlu Kemiyatorn</cite>				<time datetime="2013-01-14"><a href="http://www.wtfpl.net/feedback/#comment-35">January 14th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I love the site! :D</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=35#respond' data-commentid="35" data-postid="41" data-belowelement="comment-35" data-respondelement="respond" aria-label='Reply to Banlu Kemiyatorn'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-60" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/0817cf2508067ef1703c71c2cf77f2e8?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Frank</cite>				<time datetime="2013-01-19"><a href="http://www.wtfpl.net/feedback/#comment-60">January 19th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>The WTFPL got me laid three times within two days and made my penis grow 5 inches.</p>
+<p>Thank you, Sam!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=60#respond' data-commentid="60" data-postid="41" data-belowelement="comment-60" data-respondelement="respond" aria-label='Reply to Frank'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-62" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/9fcef2d28f423ddcf5a09dd1b36e8bd5?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Steve Paesani</cite>				<time datetime="2013-01-20"><a href="http://www.wtfpl.net/feedback/#comment-62">January 20th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Freedom to say fuck faggots, fuck those who take the pill, fuck people who don&#8217;t like religion, fuck tattoos and the people who wear them, fuck the devil..<br />
+? oops, sorry, thought it was about freedom&#8230;<br />
+sorry..</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=62#respond' data-commentid="62" data-postid="41" data-belowelement="comment-62" data-respondelement="respond" aria-label='Reply to Steve Paesani'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-63" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/9fcef2d28f423ddcf5a09dd1b36e8bd5?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Steve Paesani</cite>				<time datetime="2013-01-20"><a href="http://www.wtfpl.net/feedback/#comment-63">January 20th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>&#8220;The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). &#8221;</p>
+<p>Doesn&#8217;t that last part in parenthesis state that if the work based on the Program  is NOT independent of having been made by running the program (for instance edits done in a GPL text editor) then the output is NOT covered?</p>
+<p>Because if that&#8217;s what that is saying then the GPL (v2  at least)  is in fact  a WTFPL wether Stallman or anyone for that matter likes it or not.</p>
+<p>And that in turn means that ALL GPLd code is fair game to do WTF you want.</p>
+<p>:)</p>
+<p>Ah, I really like this freedom.</p>
+<p>I can even use the feedback area as a personal blog&#8230;</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=63#respond' data-commentid="63" data-postid="41" data-belowelement="comment-63" data-respondelement="respond" aria-label='Reply to Steve Paesani'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-81" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/8911ea8a59c0e31939bb539f917975cd?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://facebookanswers.co.uk' rel='external nofollow' class='url'>Dominic Lloyd</a></cite>				<time datetime="2013-01-28"><a href="http://www.wtfpl.net/feedback/#comment-81">January 28th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>What the fuck has religeon got to do with bad language? I&#8217;m a catholic but a lot of my atheist friends don&#8217;t like bad language, the cunts.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=81#respond' data-commentid="81" data-postid="41" data-belowelement="comment-81" data-respondelement="respond" aria-label='Reply to Dominic Lloyd'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-86" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/d55baba61c8835197bb90a8d2c2e8e42?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Rob</cite>				<time datetime="2013-02-1"><a href="http://www.wtfpl.net/feedback/#comment-86">February 1st, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>But can I&#8230; kill you?<br />
+Yes, of course I can.<br />
+But this doesn&#8217;t means it will suits anybody.<br />
+It&#8217;s an old story.<br />
+1 Co 10, 23. <a href="http://bible.cc/1_corinthians/10-23.htm" rel="nofollow">http://bible.cc/1_corinthians/10-23.htm</a><br />
+And further..</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=86#respond' data-commentid="86" data-postid="41" data-belowelement="comment-86" data-respondelement="respond" aria-label='Reply to Rob'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-2">
+		<article id="comment-128" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/7f0e12442a639362d0cc851a8ad86fbb?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Banlu Kemiyatorn</cite>				<time datetime="2013-02-27"><a href="http://www.wtfpl.net/feedback/#comment-128">February 27th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Well, it&#8217;s the software&#8217;s license, not a license to kill someone or anything beside that software. Like when someone passes you a dish and says &#8220;Eat&#8221;, you may have anything in that dish but you can&#8217;t eat him/her.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=128#respond' data-commentid="128" data-postid="41" data-belowelement="comment-128" data-respondelement="respond" aria-label='Reply to Banlu Kemiyatorn'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-89" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/567103d76573a2d167c44033cf906150?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://kongxz.com' rel='external nofollow' class='url'>kmxz</a></cite>				<time datetime="2013-02-2"><a href="http://www.wtfpl.net/feedback/#comment-89">February 2nd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Love the license and I&#8217;ll use it to license my projects.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=89#respond' data-commentid="89" data-postid="41" data-belowelement="comment-89" data-respondelement="respond" aria-label='Reply to kmxz'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-93" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/788601c411181a673b0af5ba87414024?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://kartenwerkstatt.at' rel='external nofollow' class='url'>Atrawog</a></cite>				<time datetime="2013-02-7"><a href="http://www.wtfpl.net/feedback/#comment-93">February 7th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I love the spirit of the WTPFL.  But what are your plans when doing what you want includes patenting your stuff and sue you for patent infingrement?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=93#respond' data-commentid="93" data-postid="41" data-belowelement="comment-93" data-respondelement="respond" aria-label='Reply to Atrawog'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment odd alt depth-2">
+		<article id="comment-1205" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/62f3a3907892f9c3df1815211b629355?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">curt mayer</cite>				<time datetime="2013-08-6"><a href="http://www.wtfpl.net/feedback/#comment-1205">August 6th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>If somebody grabs your stuff, patents it, and sues you for patent infringement, the correct response is to gun them down in the street like a rabid dog. any other questions?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=1205#respond' data-commentid="1205" data-postid="41" data-belowelement="comment-1205" data-respondelement="respond" aria-label='Reply to curt mayer'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-3">
+		<article id="comment-20057" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/350ef9a1ebb88a6dce52b213e5056674?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Steve Paesani</cite>				<time datetime="2014-02-1"><a href="http://www.wtfpl.net/feedback/#comment-20057">February 1st, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>What about the rest of the family?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=20057#respond' data-commentid="20057" data-postid="41" data-belowelement="comment-20057" data-respondelement="respond" aria-label='Reply to Steve Paesani'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-138" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/64fdd96eaa229c91341571c86258d669?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">thepistolking</cite>				<time datetime="2013-03-1"><a href="http://www.wtfpl.net/feedback/#comment-138">March 1st, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I love this license!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=138#respond' data-commentid="138" data-postid="41" data-belowelement="comment-138" data-respondelement="respond" aria-label='Reply to thepistolking'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-164" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/ac8a5e8739b75bda6567a4630b91dd82?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">subzey</cite>				<time datetime="2013-03-6"><a href="http://www.wtfpl.net/feedback/#comment-164">March 6th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Here, take these size-optimized WTFPL badges PNGs (made using WTFPL licenced software, btw) and do what the fuck you want with these.<br />
+<a href="http://pastebin.com/PeJNm0c3" rel="nofollow">http://pastebin.com/PeJNm0c3</a> (base64&#8217;d tar.gz)</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=164#respond' data-commentid="164" data-postid="41" data-belowelement="comment-164" data-respondelement="respond" aria-label='Reply to subzey'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-171" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/33dd33b9ee2c548262d8bcc6408ba335?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Eldritch Anchovy</cite>				<time datetime="2013-03-6"><a href="http://www.wtfpl.net/feedback/#comment-171">March 6th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>If I am coerced into doing something I&#8217;d rather not do with a WTFPL-licensed work, I am not doing whatever the fuck I want to. Is this therefore a violation of the license?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=171#respond' data-commentid="171" data-postid="41" data-belowelement="comment-171" data-respondelement="respond" aria-label='Reply to Eldritch Anchovy'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-309" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/e776de40e88f850d79e588c742ba61a5?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Mark</cite>				<time datetime="2013-03-21"><a href="http://www.wtfpl.net/feedback/#comment-309">March 21st, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>There are many things I want to do but don&#8217;t for a variety of reasons (not brave enough, social pressures, not enough time, seems too hard, etc). </p>
+<p>If I don&#8217;t actually do what the fuck I want am I in violation of the terms of the license?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=309#respond' data-commentid="309" data-postid="41" data-belowelement="comment-309" data-respondelement="respond" aria-label='Reply to Mark'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-335" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/eb4973cdb30a0acf79b800836c771c66?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='https://sites.google.com/site/aboutmale/' rel='external nofollow' class='url'>Valentin Kovalenko</a></cite>				<time datetime="2013-03-25"><a href="http://www.wtfpl.net/feedback/#comment-335">March 25th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>This is the best license ever:) also love the site<br />
+I&#8217;ve already used it in my projects</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=335#respond' data-commentid="335" data-postid="41" data-belowelement="comment-335" data-respondelement="respond" aria-label='Reply to Valentin Kovalenko'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-353" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/74706dccb795da68f56aa437f7d2aa9e?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Anonymous</cite>				<time datetime="2013-03-29"><a href="http://www.wtfpl.net/feedback/#comment-353">March 29th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I think the wtfpl is awesome and I chose it for all my projects. On the one hand I&#8217;m a bit nervous somebody will try to sue me if something breaks, on the other hand I don&#8217;t want to fragment the original wtfpl. Are there any comments about this issue?</p>
+<p>I&#8217;ve noticed the dWTFPL3:<br />
+<a href="https://github.com/isaacs/st-example/blob/14b084e080b4e58fda4e074b804b1a0a8dd7c138/LICENSE" rel="nofollow">https://github.com/isaacs/st-example/blob/14b084e080b4e58fda4e074b804b1a0a8dd7c138/LICENSE</a></p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=353#respond' data-commentid="353" data-postid="41" data-belowelement="comment-353" data-respondelement="respond" aria-label='Reply to Anonymous'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-356" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/4924fff2b5b785f86731c76be3398438?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">MichaelWH</cite>				<time datetime="2013-03-30"><a href="http://www.wtfpl.net/feedback/#comment-356">March 30th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I&#8217;ve been a fan (and user) of WTFPL for ages.  Nice to see it growing its own presence that gets away from that whole GPL/BSD/MIT/whatever nerd slap fight.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=356#respond' data-commentid="356" data-postid="41" data-belowelement="comment-356" data-respondelement="respond" aria-label='Reply to MichaelWH'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-381" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/cfd7fea3d071337d5a679a2f1d1abe7e?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Jack</cite>				<time datetime="2013-04-5"><a href="http://www.wtfpl.net/feedback/#comment-381">April 5th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>So, given you guys are under the WTFPL license. I am taking this site and all your ideas and changing the name to </p>
+<p>You May Do What the Fuck You Want to Public License<br />
+YMDWTFYWTPL</p>
+<p>Thanks</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=381#respond' data-commentid="381" data-postid="41" data-belowelement="comment-381" data-respondelement="respond" aria-label='Reply to Jack'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-386" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/e2004381e7db2e6c6d79c1765e7c1fd2?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://www.therewillbelayers.com' rel='external nofollow' class='url'>bobby</a></cite>				<time datetime="2013-04-7"><a href="http://www.wtfpl.net/feedback/#comment-386">April 7th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>this is great. an anarchist intellectual property license AND its a good quick read!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=386#respond' data-commentid="386" data-postid="41" data-belowelement="comment-386" data-respondelement="respond" aria-label='Reply to bobby'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-389" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/355bf5e9b8c66448abbe04c8266789f3?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">MiB</cite>				<time datetime="2013-04-7"><a href="http://www.wtfpl.net/feedback/#comment-389">April 7th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>So what&#8217;s preventing anyone from getting the product that comes with this license and including all of it in their own product, copyright it separately in a traditional manner, and build a business suing anyone else using the same product including the originators that are releasing under this license?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=389#respond' data-commentid="389" data-postid="41" data-belowelement="comment-389" data-respondelement="respond" aria-label='Reply to MiB'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2">
+		<article id="comment-390" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/50e8566ae648791d494e7316ed51bbbe?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Sam Hocevar</cite>				<time datetime="2013-04-7"><a href="http://www.wtfpl.net/feedback/#comment-390">April 7th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>They cannot &#8220;copyright it&#8221;; that’s exactly why the WTFPL is not the public domain.  Even if they copyrighted a derived work, they wouldn’t be allowed to sue the copyright holders of the original work.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=390#respond' data-commentid="390" data-postid="41" data-belowelement="comment-390" data-respondelement="respond" aria-label='Reply to Sam Hocevar'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-488" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/09a1cf87b67ad87df9c41167fb9ba827?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">rfichoke</cite>				<time datetime="2013-04-30"><a href="http://www.wtfpl.net/feedback/#comment-488">April 30th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>This is the most beautiful fucking thing I&#8217;ve ever seen. Especially the FAQ. Everybody&#8217;s so uptight about everything. It&#8217;s nice to see somebody chillin&#8217; like a boss and generally just, well, DOING WHATEVER THE FUCK THEY WANT.</p>
+<p>You rule.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=488#respond' data-commentid="488" data-postid="41" data-belowelement="comment-488" data-respondelement="respond" aria-label='Reply to rfichoke'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-500" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/e778d47b38ebe657fc5b7d2c16696ca6?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Canof Sand</cite>				<time datetime="2013-05-4"><a href="http://www.wtfpl.net/feedback/#comment-500">May 4th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I hope your license never grows to be very popular. It would signal that far too many people are as vulgar-minded and childish as you are. (This is already true to some degree, but the world certainly doesn&#8217;t need your kind making it worse.) Your rant defending this crap on your FAQ page only proves my point further, with your foolish insertion of stupid and irrelevant political nonsense. This isn&#8217;t about political correctness, which is garbage. It&#8217;s about basic decency and respect, not to mention professionalism, none of which you seem to comprehend, let alone hold.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=500#respond' data-commentid="500" data-postid="41" data-belowelement="comment-500" data-respondelement="respond" aria-label='Reply to Canof Sand'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment byuser comment-author-admin bypostauthor even depth-2">
+		<article id="comment-501" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/50e8566ae648791d494e7316ed51bbbe?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Sam Hocevar</cite>				<time datetime="2013-05-4"><a href="http://www.wtfpl.net/feedback/#comment-501">May 4th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Thank you for your kind words. We’re surely all going to watch you make the world a better place! Take care.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=501#respond' data-commentid="501" data-postid="41" data-belowelement="comment-501" data-respondelement="respond" aria-label='Reply to Sam Hocevar'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt depth-2">
+		<article id="comment-534" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/fb8d03d2caab567b71985a19d8a50125?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">knutz</cite>				<time datetime="2013-05-12"><a href="http://www.wtfpl.net/feedback/#comment-534">May 12th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I just read the FAQ&#8217;s and I&#8217;m pretty sure there&#8217;s no political correctness involved. Everything mentioned in the FAQ&#8217;s can also coincide with decency, respect and professionalism. I don&#8217;t know any workplace that doesn&#8217;t make gratuitous use of the word &#8220;Fuck&#8221;, so that covers professionalism; and suggesting that homosexuality, atheism and the right to express yourself through body art is against decency and respect makes you about as decent and respectful as Adolf Hitler. However, since I believe you can Do What The Fuck You Want To I&#8217;ll just say &#8220;Fuck You&#8221; and leave it at that.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=534#respond' data-commentid="534" data-postid="41" data-belowelement="comment-534" data-respondelement="respond" aria-label='Reply to knutz'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even depth-2">
+		<article id="comment-20059" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/350ef9a1ebb88a6dce52b213e5056674?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Steve Paesani</cite>				<time datetime="2014-02-1"><a href="http://www.wtfpl.net/feedback/#comment-20059">February 1st, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>If we&#8217;re seriously going along this vein the professional, decent and to some of us simply human thing to do is to use a distributed or shared cost licence coupled with transparency (to show what that cost is).<br />
+That requires people who naturally work along those lines and are willing to remain dedicated to so doing in spite of all adversity and attempts to corrupt and that is incredibly difficult to come by let alone start.<br />
+Now, out of respect for this site and the WTFPL let us ask, in Jesus&#8217;s name, amd only if it be good in his eyes, that the popularity of the WTFPL be at least sufficient so that all those professional and decent people Canof is refering to use the WTFPL cause in their case it would actually be a big step forward unless of course he&#8217;s referring to someone other than the ms, apple, intel, ibm etc</p>
+<p>pirate crew or their fsf  puppets.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=20059#respond' data-commentid="20059" data-postid="41" data-belowelement="comment-20059" data-respondelement="respond" aria-label='Reply to Steve Paesani'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-530" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/a4a603940de8cb5ddb279f3db7418405?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Chris</cite>				<time datetime="2013-05-10"><a href="http://www.wtfpl.net/feedback/#comment-530">May 10th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I find it highly amusing that, according to the license text, only the license file itself is granted those permissions.</p>
+<p>Setting aside those who would nitpick, though, great license and one I will probably use in the future.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=530#respond' data-commentid="530" data-postid="41" data-belowelement="comment-530" data-respondelement="respond" aria-label='Reply to Chris'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-536" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/7bbf700b1e8df9eb1c9779c638672b12?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">CoolGuy</cite>				<time datetime="2013-05-12"><a href="http://www.wtfpl.net/feedback/#comment-536">May 12th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Awesome! You rock!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=536#respond' data-commentid="536" data-postid="41" data-belowelement="comment-536" data-respondelement="respond" aria-label='Reply to CoolGuy'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-655" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/04808cf68c8391b8c3cc53046ca96f37?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Marcia Wilbur</cite>				<time datetime="2013-06-3"><a href="http://www.wtfpl.net/feedback/#comment-655">June 3rd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Fuck yeah!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=655#respond' data-commentid="655" data-postid="41" data-belowelement="comment-655" data-respondelement="respond" aria-label='Reply to Marcia Wilbur'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-694" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/f03085bb4c98934ae8fbcee20fa98277?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Jan van Oort</cite>				<time datetime="2013-06-13"><a href="http://www.wtfpl.net/feedback/#comment-694">June 13th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>You, dude Hocevar, have understood a basic thing, namely that all of us, but especially developers, software architects and sytems engineers, wish to <b>do whatever the fuck we want to do </b>. From this day on, I am going to use the WTFPL as sole license for all my APIs, frameworks, classes and even subroutines.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=694#respond' data-commentid="694" data-postid="41" data-belowelement="comment-694" data-respondelement="respond" aria-label='Reply to Jan van Oort'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-700" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/1dbddf235754f848ff2a6796c03e2b33?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Shurikn</cite>				<time datetime="2013-06-13"><a href="http://www.wtfpl.net/feedback/#comment-700">June 13th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I wish this license was not needed, and publishing anything anywhere without a license would be understood by everyone as meaning exactly what this license means. But we live in a fucked up world, so thank you for this great license.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=700#respond' data-commentid="700" data-postid="41" data-belowelement="comment-700" data-respondelement="respond" aria-label='Reply to Shurikn'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-725" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/2f93ac0ad9cb4c26b2a8c7bfc5f00f07?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Florian</cite>				<time datetime="2013-06-18"><a href="http://www.wtfpl.net/feedback/#comment-725">June 18th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>WHAT THE FUCK DO I WHAT THE FUCK WANT TO DO???</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=725#respond' data-commentid="725" data-postid="41" data-belowelement="comment-725" data-respondelement="respond" aria-label='Reply to Florian'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-808" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/9ccd002eb2606051e3d73fa050e50dac?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://yes' rel='external nofollow' class='url'>Connor</a></cite>				<time datetime="2013-06-28"><a href="http://www.wtfpl.net/feedback/#comment-808">June 28th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Why should i &#8220;Do What the Fuck You Want&#8221;?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=808#respond' data-commentid="808" data-postid="41" data-belowelement="comment-808" data-respondelement="respond" aria-label='Reply to Connor'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-861" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/f8b2ff126c7b647e2788d809d4754546?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">agtqwahtahz</cite>				<time datetime="2013-07-3"><a href="http://www.wtfpl.net/feedback/#comment-861">July 3rd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>What about liability limitation?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=861#respond' data-commentid="861" data-postid="41" data-belowelement="comment-861" data-respondelement="respond" aria-label='Reply to agtqwahtahz'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-907" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/62c8d0b0717c9cc7522b854c7d513bf3?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Stefan</cite>				<time datetime="2013-07-12"><a href="http://www.wtfpl.net/feedback/#comment-907">July 12th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Is there any WTFPL reference to cite?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=907#respond' data-commentid="907" data-postid="41" data-belowelement="comment-907" data-respondelement="respond" aria-label='Reply to Stefan'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-1199" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/f5eca67297cd1e295865043223d74956?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='https://sites.google.com/site/funlw65/evb-projects/003-avr-eclipse-atmel-toolchain-and-atmegaclib' rel='external nofollow' class='url'>funlw65</a></cite>				<time datetime="2013-08-6"><a href="http://www.wtfpl.net/feedback/#comment-1199">August 6th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>You don&#8217;t need an obscene expression to do what you want with your intellectual property. Anyway, this proves nothing and in fact does not provide any protection of your intellectual property. In fact, with this &#8220;license&#8221; you say that you don&#8217;t have any intellectual property and anyone can do what ever they want with your creations. I&#8217;m not that stupid &#8211; at least, a little copyright is worth the effort.</p>
+<p>Now, can I see what you are creating (if any)? I guess you are not that stupid after all, don&#8217;t you?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=1199#respond' data-commentid="1199" data-postid="41" data-belowelement="comment-1199" data-respondelement="respond" aria-label='Reply to funlw65'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment odd alt depth-2">
+		<article id="comment-3102" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/1b34b52682c5093c3851d75e20237b64?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">YourName</cite>				<time datetime="2013-09-25"><a href="http://www.wtfpl.net/feedback/#comment-3102">September 25th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Just take a look at the license itself. It&#8217;s not under the WTFPL.<br />
+But who said that you should license everything with WTFPL?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=3102#respond' data-commentid="3102" data-postid="41" data-belowelement="comment-3102" data-respondelement="respond" aria-label='Reply to YourName'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even depth-2">
+		<article id="comment-3390" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/c7c22958087dd9e7330c1563e8a12fa4?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">pierfu</cite>				<time datetime="2013-10-1"><a href="http://www.wtfpl.net/feedback/#comment-3390">October 1st, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>This guy has been Debian Project Leader, among many other great things.<br />
+Have a look at his personal site :p</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=3390#respond' data-commentid="3390" data-postid="41" data-belowelement="comment-3390" data-respondelement="respond" aria-label='Reply to pierfu'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-1794" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/a27af99fb86f33c1979c32882607de2a?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Howard</cite>				<time datetime="2013-08-23"><a href="http://www.wtfpl.net/feedback/#comment-1794">August 23rd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>As long as the act you intend to do doesn&#8217;t cause any true suffering of the others, sure, why not just do whatever you want? But purely existing as part of the society, there are many things that you do affect the others.</p>
+<p>Like say how someone use the work of others under this licence to make a genocide weapon. Well, if everything was under this licence no guarantee no one wouldn&#8217;t do this.</p>
+<p>So people always try to find the right balance between law and chaos. Hitler just took it a bit to the extreme while he doesn&#8217;t absolutely know true happiness</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=1794#respond' data-commentid="1794" data-postid="41" data-belowelement="comment-1794" data-respondelement="respond" aria-label='Reply to Howard'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-2213" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/cdee966d69d8692900c86df8007a64ec?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Rob</cite>				<time datetime="2013-09-3"><a href="http://www.wtfpl.net/feedback/#comment-2213">September 3rd, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Great idea!</p>
+<p>One minor thing about the definition of WTFPL: It would make it a lot more self-describing if instead of calling it &#8220;Do What The Fuck You Want&#8221; you call it &#8220;Do Whatever The Fuck You Want With It&#8221;.</p>
+<p>Saying &#8220;Do What The Fuck You Want&#8221; sounds as if you are asking a question &#8220;What The Fuck Do You Want?&#8221;. </p>
+<p>Other than that, this a great and very promising start that could potentially start a revolution!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=2213#respond' data-commentid="2213" data-postid="41" data-belowelement="comment-2213" data-respondelement="respond" aria-label='Reply to Rob'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="comment-3363" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/a3dd796e080b2847295f9cb5d49da2dc?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">fstj</cite>				<time datetime="2013-09-30"><a href="http://www.wtfpl.net/feedback/#comment-3363">September 30th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>The greener the better:<br />
+<a href="http://www.tldrlegal.com/browse" rel="nofollow">http://www.tldrlegal.com/browse</a></p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=3363#respond' data-commentid="3363" data-postid="41" data-belowelement="comment-3363" data-respondelement="respond" aria-label='Reply to fstj'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1">
+		<article id="comment-4451" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/e5161f7045b93f29dc39d47fba38b4dc?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://www.gundlach-marketing.com' rel='external nofollow' class='url'>Brian</a></cite>				<time datetime="2013-10-21"><a href="http://www.wtfpl.net/feedback/#comment-4451">October 21st, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>* more prominent / interactive showcase</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=4451#respond' data-commentid="4451" data-postid="41" data-belowelement="comment-4451" data-respondelement="respond" aria-label='Reply to Brian'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment odd alt depth-2">
+		<article id="comment-4452" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/e5161f7045b93f29dc39d47fba38b4dc?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://www.gundlach-marketing.com' rel='external nofollow' class='url'>Brian</a></cite>				<time datetime="2013-10-21"><a href="http://www.wtfpl.net/feedback/#comment-4452">October 21st, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>@stephan <a href="http://www.wtfpl.net/txt/copying/" rel="nofollow">http://www.wtfpl.net/txt/copying/</a></p>
+<p>@funlw65 &#8220;You don’t need an obscene expression to do what you want with your intellectual property&#8221;? no shit.  This license grants me no rights, and obligates you to nothing.  Technically I don&#8217;t need a license either.  This license brings a smile to peoples faces(or gets prude&#8217;s(like yourself) panties in a bunch(which brings a smile to my day))</p>
+<p>@howard typically people who create genocide weopons, release them under an unwritten WTFPL if they release the plans to anyone.  however these are typically megalomaniacal people that just deploy the weopons once they have them.</p>
+<p>@rob if you don&#8217;t like it, create your own. &#8220;Do What The Fuck You Want&#8221; and change it</p>
+<p>@sam This site needs a more prominent / interactive showcase.  I&#8217;m willing to code it and/or moderate it, if you&#8217;re interested.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=4452#respond' data-commentid="4452" data-postid="41" data-belowelement="comment-4452" data-respondelement="respond" aria-label='Reply to Brian'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-4907" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/97081a6003762b7f3e404b2ad9eb7e7d?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Neo</cite>				<time datetime="2013-10-30"><a href="http://www.wtfpl.net/feedback/#comment-4907">October 30th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I like WTFPL, I use WTFPL.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=4907#respond' data-commentid="4907" data-postid="41" data-belowelement="comment-4907" data-respondelement="respond" aria-label='Reply to Neo'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-6071" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/eb71a83fe6ef4bb9a3688d700a3205b3?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Pixels</cite>				<time datetime="2013-11-4"><a href="http://www.wtfpl.net/feedback/#comment-6071">November 4th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p><a href="http://hastebin.com/raw/payecivaxi" rel="nofollow">I made an edited version of the license.</a></p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=6071#respond' data-commentid="6071" data-postid="41" data-belowelement="comment-6071" data-respondelement="respond" aria-label='Reply to Pixels'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-7777" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/c41703f0ad9e768a3c6ca81ea2f4acb7?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://boogeyman.toofuckingfast.com' rel='external nofollow' class='url'>Sven</a></cite>				<time datetime="2013-11-12"><a href="http://www.wtfpl.net/feedback/#comment-7777">November 12th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Guys,<br />
+I like everything about this&#8230;<br />
+Your site, your license and your attitude! 1up!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=7777#respond' data-commentid="7777" data-postid="41" data-belowelement="comment-7777" data-respondelement="respond" aria-label='Reply to Sven'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-8021" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/afef95e270f334ab5680abda77abb999?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://www.minecraftforum.net/topic/1946878-quantum-circuits-computers-redstone-compatible/' rel='external nofollow' class='url'>Andreas Olofsson</a></cite>				<time datetime="2013-11-14"><a href="http://www.wtfpl.net/feedback/#comment-8021">November 14th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Using this license for our Minecraft mod. Good, simple to understand license. Not 100% fond of the name (could maybe use a less &#8220;harsh&#8221; word), but it&#8217;s good stuff, and gets the message across.</p>
+<p>Cheers<br />
+// Andreas</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=8021#respond' data-commentid="8021" data-postid="41" data-belowelement="comment-8021" data-respondelement="respond" aria-label='Reply to Andreas Olofsson'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+<ul class="children">
+	<li class="comment even depth-2">
+		<article id="comment-22148" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/5fb0d97bedbf639d846b73d9166f7963?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Tut</cite>				<time datetime="2014-02-16"><a href="http://www.wtfpl.net/feedback/#comment-22148">February 16th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>If you don&#8217;t like the wording the WTFPL has a clause which permits changing the wording or the words behind &#8220;WTF&#8221;. Under an alternate interpretation WTFPL stands for &#8220;What the Friendly Public License&#8221;. Now who could object to such a friendly license? Do whatever the friendly you want to!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=22148#respond' data-commentid="22148" data-postid="41" data-belowelement="comment-22148" data-respondelement="respond" aria-label='Reply to Tut'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt depth-2">
+		<article id="comment-26683" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/c8f32eed60bcb57165399005094d34c4?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://dev.socklint.com' rel='external nofollow' class='url'>David Eldridge</a></cite>				<time datetime="2014-04-3"><a href="http://www.wtfpl.net/feedback/#comment-26683">April 3rd, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>@Andreas maybe you could ask for permission to rename the license for your own use. :)<br />
+I love the license, not the name. I think I will change it to serve my own purposes to something more like this:</p>
+<blockquote><p>Copyright (C) &lt;2014&gt; &lt;me&gt;</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &#8220;Software&#8221;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &#8220;AS IS&#8221;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p></blockquote>
+<p>Then, I think I will call it the MIT license.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=26683#respond' data-commentid="26683" data-postid="41" data-belowelement="comment-26683" data-respondelement="respond" aria-label='Reply to David Eldridge'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-9630" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/2b939e1e5ea3cb9d26b330ce083e4a69?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">WTFPL zealot</cite>				<time datetime="2013-11-30"><a href="http://www.wtfpl.net/feedback/#comment-9630">November 30th, 2013 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>a js script header I just saw at <a href="https://get3.adobe.com" rel="nofollow">https://get3.adobe.com</a>, and bring me there :<br />
+love it :D</p>
+<p>/**<br />
+* BxSlider v4.1.1 &#8211; Fully loaded, responsive content slider<br />
+* <a href="http://bxslider.com" rel="nofollow">http://bxslider.com</a><br />
+*<br />
+* Copyright 2012, Steven Wanderski &#8211; <a href="http://stevenwanderski.com" rel="nofollow">http://stevenwanderski.com</a> &#8211; <a href="http://bxcreative.com" rel="nofollow">http://bxcreative.com</a><br />
+* Written while drinking Belgian ales and listening to jazz<br />
+*<br />
+* Released under the WTFPL license &#8211; <a href="http://sam.zoy.org/wtfpl/" rel="nofollow">http://sam.zoy.org/wtfpl/</a><br />
+*/</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=9630#respond' data-commentid="9630" data-postid="41" data-belowelement="comment-9630" data-respondelement="respond" aria-label='Reply to WTFPL zealot'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-16164" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/d6da0dca93ab888ba72f2dd8d147eef3?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Tom</cite>				<time datetime="2014-01-6"><a href="http://www.wtfpl.net/feedback/#comment-16164">January 6th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>It&#8217;s easier not icnlude any license at all, just upload and done. But having license is kinda more interesting,  kinda &#8220;Use As Your Own&#8221; looks like, I like WTFPL. I&#8217;ll be using it.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=16164#respond' data-commentid="16164" data-postid="41" data-belowelement="comment-16164" data-respondelement="respond" aria-label='Reply to Tom'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-18492" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/f256678460c5afe31bdab98049fcde6f?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">anon</cite>				<time datetime="2014-01-19"><a href="http://www.wtfpl.net/feedback/#comment-18492">January 19th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>As much as I like the (idea of the) GPL, I have to say the WTFPL&#8217;s simplicity is extremely attractive.  Although I probably won&#8217;t be using it for anything big I release for legal reasons (as much as I like giving people freedoms, I don&#8217;t like giving people the &#8220;freedom&#8221; to restrict mine), I will certainly use this for every other piece of software I release, even if only to make a point.</p>
+<p>On a side not, I find it amusing that some people are complaining about the foul language.  Unfortunately for them, this is the internet, we use that kind of language here you dumb fucks.  It&#8217;s almost as if&#8230; we do what the fuck we want.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=18492#respond' data-commentid="18492" data-postid="41" data-belowelement="comment-18492" data-respondelement="respond" aria-label='Reply to anon'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-19118" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/cdc4477aca80b59fb456404b6e869ebc?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='https://github.com/yuwash/' rel='external nofollow' class='url'>yuwash</a></cite>				<time datetime="2014-01-24"><a href="http://www.wtfpl.net/feedback/#comment-19118">January 24th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>It&#8217;d be useful if there were a permalink for the version 2 for referencing. Further, I wonder if is there&#8217;s a version 1 as well?</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=19118#respond' data-commentid="19118" data-postid="41" data-belowelement="comment-19118" data-respondelement="respond" aria-label='Reply to yuwash'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-19475" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/484389caecbefd2924b8c294c5610af8?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Yes i have a name</cite>				<time datetime="2014-01-27"><a href="http://www.wtfpl.net/feedback/#comment-19475">January 27th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>One missing reference to upset the double standard christians out there a little bit more:</p>
+<p>A connection from WTFPL to satanism:</p>
+<p>&#8220;Do what thou wilt shall be the whole of the law&#8221;<br />
+Aleister Crowley</p>
+<p>And now start complaining about it while drinking a bottle of morality&#8230;.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=19475#respond' data-commentid="19475" data-postid="41" data-belowelement="comment-19475" data-respondelement="respond" aria-label='Reply to Yes i have a name'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-23979" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/e916262ad46be5059663e8905185a9ab?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">tim</cite>				<time datetime="2014-03-7"><a href="http://www.wtfpl.net/feedback/#comment-23979">March 7th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Hi there, splendid license.</p>
+<p>I have a question about using the WTFPL. On your FAQ-page (<a href="http://www.wtfpl.net/faq/" rel="nofollow">http://www.wtfpl.net/faq/</a>) it says to include the following text in the source code if I want a no warranty clause:</p>
+<p>/* This program is free software. It comes without any warranty, to<br />
+     * the extent permitted by applicable law. You can redistribute it<br />
+     * and/or modify it under the terms of the Do What The Fuck You Want<br />
+     * To Public License, Version 2, as published by Sam Hocevar. See<br />
+     * <a href="http://www.wtfpl.net/" rel="nofollow">http://www.wtfpl.net/</a> for more details. */</p>
+<p>My question is whether after inlucding this text I still must follow step one and two from the &#8220;How do I use the WTFPL?&#8221;-section of the FAQ page.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=23979#respond' data-commentid="23979" data-postid="41" data-belowelement="comment-23979" data-respondelement="respond" aria-label='Reply to tim'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-25573" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/0e312256f90912d294926672617a6fc3?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Shane Heyns</cite>				<time datetime="2014-03-20"><a href="http://www.wtfpl.net/feedback/#comment-25573">March 20th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I rate this was the best license ever thought of and i believe it holds the true meaning of freedom and honestly if people are offended by it and disagree with it in anyway you have the freedom of choice so dont use it but me i always use it thanks for the great work Sam Hocevar.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=25573#respond' data-commentid="25573" data-postid="41" data-belowelement="comment-25573" data-respondelement="respond" aria-label='Reply to Shane Heyns'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-28987" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/79425d7ceeb41afb94a1ab95746c9064?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">swine</cite>				<time datetime="2014-05-10"><a href="http://www.wtfpl.net/feedback/#comment-28987">May 10th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>&#8220;They cannot “copyright it”; that’s exactly why the WTFPL is not the public domain. Even if they copyrighted a derived work, they wouldn’t be allowed to sue the copyright holders of the original work.&#8221;</p>
+<p>This would probably be useful if it was covered in FAQ. Great license otherwise, exactly what I was looking for for years now.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=28987#respond' data-commentid="28987" data-postid="41" data-belowelement="comment-28987" data-respondelement="respond" aria-label='Reply to swine'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-29318" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/5eef99611c4177e9b7f40b740da0a024?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://jake.pm' rel='external nofollow' class='url'>Jake</a></cite>				<time datetime="2014-05-15"><a href="http://www.wtfpl.net/feedback/#comment-29318">May 15th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Fantastic idea, I will be using this on all my fun/gimmick sites&#8230; Don&#8217;t change the name!</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=29318#respond' data-commentid="29318" data-postid="41" data-belowelement="comment-29318" data-respondelement="respond" aria-label='Reply to Jake'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-32744" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/1af7773d1d1ae6feed89b403839302ef?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Le Concombre Masqué</cite>				<time datetime="2014-06-23"><a href="http://www.wtfpl.net/feedback/#comment-32744">June 23rd, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Is this license case aware? In other word, may I create a modified version and call it &#8220;Do What The Fuck You Want To Public License&#8221; (notice the capitalized T in &#8220;To&#8221;)</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=32744#respond' data-commentid="32744" data-postid="41" data-belowelement="comment-32744" data-respondelement="respond" aria-label='Reply to Le Concombre Masqué'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-33108" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/b688423bde640a3bfce2bef1886643bf?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Random Kid</cite>				<time datetime="2014-06-26"><a href="http://www.wtfpl.net/feedback/#comment-33108">June 26th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I just have to say that this is fucking epic license xD</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=33108#respond' data-commentid="33108" data-postid="41" data-belowelement="comment-33108" data-respondelement="respond" aria-label='Reply to Random Kid'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-33377" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/6e9885eef4b859d8fa9ed68ab8b9fb1e?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">arsene</cite>				<time datetime="2014-06-29"><a href="http://www.wtfpl.net/feedback/#comment-33377">June 29th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>I was arguing this idea to a few people for the past few days without knowing of this. I don&#8217;t know how some people can call something free if the license includes restrictions. That&#8217;s the opposite of free.</p>
+<p>Anyway, great that someone agrees. I&#8217;ll use it without the exclusive copyright line which sort of goes against the spirit of &#8216;do what you want&#8217;. I hope to see a version 3 or something that ignores exclusive copyright of anything, including the license document. You actually explicitly recognise the right of anyone to copy the license so using the (C) symbol is sort of confusing and misleading. Also I like to not brand anything I say with others&#8217; names.<br />
+I can always just write a similar message with my works but since this is already a recognised (:popular) license it would be nice to use it.</p>
+<p>Ciao</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=33377#respond' data-commentid="33377" data-postid="41" data-belowelement="comment-33377" data-respondelement="respond" aria-label='Reply to arsene'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1">
+		<article id="comment-35621" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/379d8ab72100417539f4249978e77ca0?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn"><a href='http://www.freebsd.org/' rel='external nofollow' class='url'>Beastie</a></cite>				<time datetime="2014-07-15"><a href="http://www.wtfpl.net/feedback/#comment-35621">July 15th, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Sam, your link to the &#8216;BSD&#8217; (supposed FreeBSD) license on this page is outdated and non-specific as to which &#8216;BSD&#8217; (your text) license you are linking to.<br />
+<a href="http://www.wtfpl.net/about/" rel="nofollow">http://www.wtfpl.net/about/</a><br />
+<a href="http://www.freebsd.org/copyright/license.html" rel="nofollow">http://www.freebsd.org/copyright/license.html</a></p>
+<p>The above link is to the old &#8216;4-clause&#8217; BSD license, with a note regarding removal of the advertising clause below.</p>
+<p>The current license, most particularly for all new code, is now the &#8216;2-clause&#8217; BSD license.<br />
+<a href="http://www.freebsd.org/copyright/freebsd-license.html" rel="nofollow">http://www.freebsd.org/copyright/freebsd-license.html</a></p>
+<p>You may find all the various names for older &#8216;BSD&#8217; licenses at the fsf and foss license compendium sites.</p>
+<p>Please update your links and text. Thanks.</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=35621#respond' data-commentid="35621" data-postid="41" data-belowelement="comment-35621" data-respondelement="respond" aria-label='Reply to Beastie'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1">
+		<article id="comment-36363" class="clearfix">
+			<header class="comment-author vcard">
+			    			    <!-- custom gravatar call -->
+			    			    <img data-gravatar="http://www.gravatar.com/avatar/d53693818f3410773c1674c91ce88ac5?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="http://www.wtfpl.net/wp-content/themes/bones/library/images/nothing.gif" />
+			    <!-- end custom gravatar call -->
+				<cite class="fn">Jossel</cite>				<time datetime="2014-07-22"><a href="http://www.wtfpl.net/feedback/#comment-36363">July 22nd, 2014 </a></time>
+							</header>
+						<section class="comment_content clearfix">
+				<p>Can i download your work, claim is mine and then sue you for &#8220;stealing my work&#8221;?<br />
+if not then i can&#8217;t do what the fuck i want to</p>
+			</section>
+			<a rel='nofollow' class='comment-reply-link' href='/feedback/?replytocom=36363#respond' data-commentid="36363" data-postid="41" data-belowelement="comment-36363" data-respondelement="respond" aria-label='Reply to Jossel'>Reply</a>		</article>
+    <!-- </li> is added by WordPress automatically -->
+</li><!-- #comment-## -->
+	</ol>
+	
+	<nav id="comment-nav">
+		<ul class="clearfix">
+	  		<li></li>
+	  		<li></li>
+		</ul>
+	</nav>
+  
+	
+
+
+<section id="respond" class="respond-form">
+
+	<h3 id="comment-form-title" class="h2">Leave a Reply to <a href="#comment-4452">Brian</a></h3>
+
+	<div id="cancel-comment-reply">
+		<p class="small"><a rel="nofollow" id="cancel-comment-reply-link" href="/feedback/#respond">Click here to cancel reply.</a></p>
+	</div>
+
+	
+	<form action="http://www.wtfpl.net/wp-comments-post.php" method="post" id="commentform">
+
+		
+	<ul id="comment-form-elements" class="clearfix">
+		
+		<li>
+		  <label for="author">Name (required)</label>
+		  <input type="text" name="author" id="author" value="" placeholder="Your Name*" tabindex="1" aria-required='true' />
+		</li>
+		
+		<li>
+		  <label for="email">Mail (required)</label>
+		  <input type="email" name="email" id="email" value="" placeholder="Your E-Mail*" tabindex="2" aria-required='true' />
+		  <small>(will not be published)</small>
+		</li>
+		
+		<li>
+		  <label for="url">Website</label>
+		  <input type="url" name="url" id="url" value="" placeholder="Got a website?" tabindex="3" />
+		</li>
+		
+	</ul>
+
+		
+	<p><textarea name="comment" id="comment" placeholder="Your Comment here..." tabindex="4"></textarea></p>
+	
+	<p>
+	  <input name="submit" type="submit" id="submit" class="button" tabindex="5" value="Submit" />
+	  <input type='hidden' name='comment_post_ID' value='41' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='4452' />
+	</p>
+	
+	<div class="alert info">
+		<p id="allowed_tags" class="small"><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+	</div>
+	
+	<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e470d4a313" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="219"/></p>	
+	</form>
+	
+	</section>
+
+					
+					    </article> <!-- end article -->
+					
+					    			
+    				</div> <!-- end #main -->
+    
+				</div> <!-- end #inner-content -->
+    
+			</div> <!-- end #content -->
+
+			<footer class="footer" role="contentinfo">
+			
+				<div id="inner-footer" class="wrap clearfix">
+					
+					<nav role="navigation">
+    						                </nav>
+	                		
+					<p class="source-org copyright">&copy; 2021 WTFPL &#8211; Do What the Fuck You Want to Public License.</p>
+				
+				</div> <!-- end #inner-footer -->
+				
+			</footer> <!-- end footer -->
+		
+		</div> <!-- end #container -->
+		
+		<!-- all js scripts are loaded in library/bones.php -->
+		<script type='text/javascript' src='http://www.wtfpl.net/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='http://www.wtfpl.net/wp-content/themes/bones/library/js/scripts.js'></script>
+<script type='text/javascript' src='http://www.wtfpl.net/wp-includes/js/wp-embed.min.js'></script>
+<script async="async" type='text/javascript' src='http://www.wtfpl.net/wp-content/plugins/akismet/_inc/form.js'></script>
+
+	</body>
+
+</html> <!-- end page. what a ride! -->

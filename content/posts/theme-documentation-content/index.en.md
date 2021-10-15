@@ -155,6 +155,12 @@ library:
 seo:
   images: []
   # ...
+outdatedArticleReminder:
+  enable: false
+  # ...
+sponsor:
+  enable: false
+  # ...
 ---
 ```
 
@@ -193,6 +199,8 @@ seo:
 * **comment**: {{< version 0.2.0 changed >}} the same as the `params.page.comment` part in the [site configuration](../theme-documentation-basics#site-configuration).
 * **library**: {{< version 0.2.7 >}} the same as the `params.page.library` part in the [site configuration](../theme-documentation-basics#site-configuration).
 * **seo**: {{< version 0.2.10 >}} the same as the `params.page.seo` part in the [site configuration](../theme-documentation-basics#site-configuration).
+* **outdatedArticleReminder**: {{< version 0.2.13 >}} the same as the `params.page.outdatedArticleReminder` part in the [site configuration](../theme-documentation-basics#site-configuration).
+* **sponsor**: {{< version 0.2.13 >}} the same as the `params.sponsor` part in the [site configuration](../theme-documentation-basics#site-configuration).
 
 {{< admonition tip >}}
 {{< version 0.2.10 >}}
