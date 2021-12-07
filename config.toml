@@ -1033,6 +1033,9 @@ X-Robots-Tag = 'nofollow'
     [params.analytics.plausible]
       data_domain = ""
       src = ""
+    # Cloudflare Analytics
+    [params.analytics.cloudflare]
+      token = ""
 
   # Cookie consent config
   # Cookie 许可配置
