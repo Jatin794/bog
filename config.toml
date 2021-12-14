@@ -278,9 +278,12 @@ X-Robots-Tag = 'nofollow'
         BuyMeACoffee = ""
         Linktree = ""
         RSS = true
-#        [languages.en.params.social.Mastodon]
-#          id = "@xxxx"
-#          prefix = "https://mastodon.technology/"
+        [languages.en.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
+        [languages.en.params.social.Diaspora]
+          id = "@xxxx"
+          prefix = "https://yyyy/"
       # Sponsor config
       [languages.en.params.sponsor]
         enable = false
@@ -524,6 +527,7 @@ X-Robots-Tag = 'nofollow'
         Linktree = ""
         QQ = ""
         QQGroup = ""
+        Diaspora = ""
         Email = "admin@jatinnagpal.com"
         RSS = true
         # 赞助设置
