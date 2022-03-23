@@ -858,8 +858,8 @@ X-Robots-Tag = 'nofollow'
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = "aM7gLUeWp8it1Efrcp3rm8TB-MdYXbMMI"
-        appKey = "Xn1xlYj3Fm5gvsYG3WyQpaix"
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
