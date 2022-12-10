@@ -1082,6 +1082,7 @@ X-Robots-Tag = 'nofollow'
     [params.analytics.umami]
       data_website_id = ""
       src = ""
+      data_host_url = ""
       data_domains = ""
     # Plausible Analytics
     [params.analytics.plausible]
