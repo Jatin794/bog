@@ -150,7 +150,7 @@ X-Robots-Tag = 'nofollow'
       # Search config
       [languages.en.params.search]
         enable = true
-        # type of search engine ("lunr", "algolia", "fuse")
+        # type of search engine ("algolia", "fuse")
         type = "algolia"
         # max index length of the chunked content
         contentLength = 4000
@@ -404,7 +404,7 @@ X-Robots-Tag = 'nofollow'
       # 搜索配置
       [languages.zh-cn.params.search]
         enable = true
-        # 搜索引擎的类型 ("lunr", "algolia", "fuse")
+        # 搜索引擎的类型 ("algolia", "fuse")
         type = "algolia"
         # 文章内容最长索引长度
         contentLength = 4000
