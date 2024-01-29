@@ -39,17 +39,21 @@
             srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
 =======
             src="{{ $default.RelPermalink | safeURL }}"
-            {{- if eq $optimized false -}}
-            srcset="{{ $small.RelPermalink | safeURL }}, {{ $default.RelPermalink | safeURL }} 1.5x, {{ $large.RelPermalink | safeURL }} 2x"
-            {{- else -}}
             srcset="
-                  {{ $small.RelPermalink | safeURL }} {{ $small.Width }}w,
-                  {{ $default.RelPermalink | safeURL }} {{ $default.Width }}w,
-                  {{ $large.RelPermalink | safeURL }} {{ $large.Width }}w
-            "
+            {{- if eq $optimized false -}}
+                {{ $small.RelPermalink | safeURL }}, {{ $default.RelPermalink | safeURL }} 1.5x, {{ $large.RelPermalink | safeURL }} 2x
+            {{- else -}}
+                {{ $small.RelPermalink | safeURL }} {{ $small.Width }}w,
+                {{ $default.RelPermalink | safeURL }} {{ $default.Width }}w,
+                {{ $large.RelPermalink | safeURL }} {{ $large.Width }}w
             {{- end -}}
+<<<<<<< HEAD:themes/DoIt/layouts/partials/plugin/image.html
             {{/*  sizes="auto" https://github.com/HEIGE-PCloud/DoIt/issues/1165  */}}
 >>>>>>> 42090319 (refactor: adapt `image.html` to new image pipeline):layouts/partials/plugin/image.html
+=======
+            "
+            sizes="auto"
+>>>>>>> 4e7c350a (fix: refactor image.html template attributes):layouts/partials/plugin/image.html
             alt="{{ $alt }}"{{ with $height }} height="{{ . }}" {{ end }}{{ with $width }} width="{{ . }}" {{ end }}>
     </a>
 {{- else -}}
@@ -61,17 +65,21 @@
         srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
 =======
         src="{{ $default.RelPermalink | safeURL }}"
-        {{- if eq $optimized false -}}
-        srcset="{{ $small.RelPermalink | safeURL }}, {{ $default.RelPermalink | safeURL }} 1.5x, {{ $large.RelPermalink | safeURL }} 2x"
-        {{- else -}}
         srcset="
-              {{ $small.RelPermalink | safeURL }} {{ $small.Width }}w,
-              {{ $default.RelPermalink | safeURL }} {{ $default.Width }}w,
-              {{ $large.RelPermalink | safeURL }} {{ $large.Width }}w
-        "
+        {{- if eq $optimized false -}}
+            {{ $small.RelPermalink | safeURL }}, {{ $default.RelPermalink | safeURL }} 1.5x, {{ $large.RelPermalink | safeURL }} 2x
+        {{- else -}}
+            {{ $small.RelPermalink | safeURL }} {{ $small.Width }}w,
+            {{ $default.RelPermalink | safeURL }} {{ $default.Width }}w,
+            {{ $large.RelPermalink | safeURL }} {{ $large.Width }}w
         {{- end -}}
+<<<<<<< HEAD:themes/DoIt/layouts/partials/plugin/image.html
         {{/*  sizes="auto" https://github.com/HEIGE-PCloud/DoIt/issues/1165  */}}
 >>>>>>> 42090319 (refactor: adapt `image.html` to new image pipeline):layouts/partials/plugin/image.html
         alt="{{ $alt }}"
+=======
+        "
+        sizes="auto"
+>>>>>>> 4e7c350a (fix: refactor image.html template attributes):layouts/partials/plugin/image.html
         title="{{ .Title | default $alt }}"{{ with $height }} height="{{ . }}" {{ end }} {{ with $width }} width="{{ . }}" {{ end }}>
 {{- end -}}
