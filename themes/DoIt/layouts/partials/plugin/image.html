@@ -52,8 +52,11 @@
 >>>>>>> 42090319 (refactor: adapt `image.html` to new image pipeline):layouts/partials/plugin/image.html
 =======
             "
+<<<<<<< HEAD:themes/DoIt/layouts/partials/plugin/image.html
             sizes="auto"
 >>>>>>> 4e7c350a (fix: refactor image.html template attributes):layouts/partials/plugin/image.html
+=======
+>>>>>>> 0abc1d9c (fix: remove sizes=auto):layouts/partials/plugin/image.html
             alt="{{ $alt }}"{{ with $height }} height="{{ . }}" {{ end }}{{ with $width }} width="{{ . }}" {{ end }}>
     </a>
 {{- else -}}
@@ -79,7 +82,10 @@
         alt="{{ $alt }}"
 =======
         "
+<<<<<<< HEAD:themes/DoIt/layouts/partials/plugin/image.html
         sizes="auto"
 >>>>>>> 4e7c350a (fix: refactor image.html template attributes):layouts/partials/plugin/image.html
+=======
+>>>>>>> 0abc1d9c (fix: remove sizes=auto):layouts/partials/plugin/image.html
         title="{{ .Title | default $alt }}"{{ with $height }} height="{{ . }}" {{ end }} {{ with $width }} width="{{ . }}" {{ end }}>
 {{- end -}}
