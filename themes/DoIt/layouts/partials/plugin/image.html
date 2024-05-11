@@ -31,6 +31,7 @@
 
 {{- if .Linked -}}
     <a class="lightgallery" href="{{ $large.RelPermalink | safeURL }}" title="{{ .Title | default $alt }}" data-thumbnail="{{ $small.RelPermalink | safeURL }}"{{ with .Caption }} data-sub-html="<h2>{{ . }}</h2>{{ with $.Title }}<p>{{ . }}</p>{{ end }}"{{ end }}{{ with .Rel }} rel="{{ . }}"{{ end }}>
+{{- end -}}
         <img
             {{ with .Class }}class="{{ . }}"{{ end }}
             loading="{{ $loading }}"
@@ -58,7 +59,9 @@
 =======
 >>>>>>> 0abc1d9c (fix: remove sizes=auto):layouts/partials/plugin/image.html
             alt="{{ $alt }}"{{ with $height }} height="{{ . }}" {{ end }}{{ with $width }} width="{{ . }}" {{ end }}>
+{{- if .Linked -}}
     </a>
+<<<<<<< HEAD:themes/DoIt/layouts/partials/plugin/image.html
 {{- else -}}
     <img
         {{ with .Class }}class="{{ . }}"{{ end }}
@@ -88,4 +91,6 @@
 =======
 >>>>>>> 0abc1d9c (fix: remove sizes=auto):layouts/partials/plugin/image.html
         title="{{ .Title | default $alt }}"{{ with $height }} height="{{ . }}" {{ end }} {{ with $width }} width="{{ . }}" {{ end }}>
+=======
+>>>>>>> ef455fb0 (refactor(image): reduce deplicated img item):layouts/partials/plugin/image.html
 {{- end -}}
